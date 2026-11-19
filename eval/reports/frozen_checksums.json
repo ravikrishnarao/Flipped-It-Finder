@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-11-14T11:05:42.527Z",
+  "status": "VERIFIED_FROZEN_INTEGRITY",
+  "evaluationLabel": "V2.2.4 Corrected Baseline Evaluation (Times of India Verified)",
+  "allChecksumsIdentical": true,
+  "datasets": [
+    {
+      "file": "data/relationships.json",
+      "sha256": "f519253f8435352ccb608a6b6f1a538def08acb4b09739b26774881f643d5dc9",
+      "sizeBytes": 13693
+    },
+    {
+      "file": "data/phrases.json",
+      "sha256": "86c00b16762926036e624c1968b2466e6f0fd7b042590195edf10f9ca4440163",
+      "sizeBytes": 4559
+    },
+    {
+      "file": "data/wordnet_relationships.json",
+      "sha256": "ad2e8aed62f30d68406e452aaff0d5b2af13086c6a973ccfedb96d62be6f33c5",
+      "sizeBytes": 39087
+    },
+    {
+      "file": "data/moby_phrases.json",
+      "sha256": "c773c0085c44aef33ae6b830de6e317eedf4681e91c9729e11473727d3de0a3c",
+      "sizeBytes": 13894
+    },
+    {
+      "file": "data/contextual_associations.json",
+      "sha256": "4c4c9eea2eb53321a35b8b1d57621a00ff014e13d0de8b8bf5e3afb53fca02db",
+      "sizeBytes": 8940
+    }
+  ]
+}

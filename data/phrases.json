@@ -1,0 +1,218 @@
+[
+  {
+    "phrase": "FAST FOOD",
+    "word1": "FAST",
+    "word2": "FOOD",
+    "frequencyScore": 1.0,
+    "category": "culinary",
+    "alternateForms": ["FASTFOOD"]
+  },
+  {
+    "phrase": "CLASS MATE",
+    "word1": "CLASS",
+    "word2": "MATE",
+    "frequencyScore": 0.98,
+    "category": "education",
+    "alternateForms": ["CLASSMATE"]
+  },
+  {
+    "phrase": "HIGH TIDE",
+    "word1": "HIGH",
+    "word2": "TIDE",
+    "frequencyScore": 0.98,
+    "category": "nature",
+    "alternateForms": ["HIGHTIDE"]
+  },
+  {
+    "phrase": "WAR CRY",
+    "word1": "WAR",
+    "word2": "CRY",
+    "frequencyScore": 0.96,
+    "category": "idiom / historical",
+    "alternateForms": ["WARCRY"]
+  },
+  {
+    "phrase": "GOLDEN AGE",
+    "word1": "GOLDEN",
+    "word2": "AGE",
+    "frequencyScore": 0.99,
+    "category": "history / culture",
+    "alternateForms": []
+  },
+  {
+    "phrase": "SUN RAY",
+    "word1": "SUN",
+    "word2": "RAY",
+    "frequencyScore": 0.95,
+    "category": "nature",
+    "alternateForms": ["SUNRAY"]
+  },
+  {
+    "phrase": "MOON LIGHT",
+    "word1": "MOON",
+    "word2": "LIGHT",
+    "frequencyScore": 0.99,
+    "category": "nature",
+    "alternateForms": ["MOONLIGHT"]
+  },
+  {
+    "phrase": "HIGH RISE",
+    "word1": "HIGH",
+    "word2": "RISE",
+    "frequencyScore": 0.97,
+    "category": "architecture",
+    "alternateForms": ["HIGHRISE", "HIGH-RISE"]
+  },
+  {
+    "phrase": "BOOK SHELF",
+    "word1": "BOOK",
+    "word2": "SHELF",
+    "frequencyScore": 0.99,
+    "category": "furniture",
+    "alternateForms": ["BOOKSHELF"]
+  },
+  {
+    "phrase": "CHAIR PERSON",
+    "word1": "CHAIR",
+    "word2": "PERSON",
+    "frequencyScore": 0.98,
+    "category": "business / organizational",
+    "alternateForms": ["CHAIRPERSON"]
+  },
+  {
+    "phrase": "GOOD LUCK",
+    "word1": "GOOD",
+    "word2": "LUCK",
+    "frequencyScore": 1.0,
+    "category": "greeting / idiom",
+    "alternateForms": []
+  },
+  {
+    "phrase": "CLOSE UP",
+    "word1": "CLOSE",
+    "word2": "UP",
+    "frequencyScore": 0.98,
+    "category": "media / photography",
+    "alternateForms": ["CLOSEUP", "CLOSE-UP"]
+  },
+  {
+    "phrase": "EYE LID",
+    "word1": "EYE",
+    "word2": "LID",
+    "frequencyScore": 0.97,
+    "category": "anatomy",
+    "alternateForms": ["EYELID"]
+  },
+  {
+    "phrase": "WHOLE SALE",
+    "word1": "WHOLE",
+    "word2": "SALE",
+    "frequencyScore": 0.98,
+    "category": "commerce",
+    "alternateForms": ["WHOLESALE"]
+  },
+  {
+    "phrase": "MODERN ART",
+    "word1": "MODERN",
+    "word2": "ART",
+    "frequencyScore": 0.99,
+    "category": "culture",
+    "alternateForms": []
+  },
+  {
+    "phrase": "FIRST PERSON",
+    "word1": "FIRST",
+    "word2": "PERSON",
+    "frequencyScore": 0.98,
+    "category": "grammar / gaming",
+    "alternateForms": ["FIRST-PERSON"]
+  },
+  {
+    "phrase": "JUNK MAIL",
+    "word1": "JUNK",
+    "word2": "MAIL",
+    "frequencyScore": 0.98,
+    "category": "communication / daily",
+    "alternateForms": ["JUNKMAIL"]
+  },
+  {
+    "phrase": "HOT DOG",
+    "word1": "HOT",
+    "word2": "DOG",
+    "frequencyScore": 0.99,
+    "category": "food",
+    "alternateForms": ["HOTDOG"]
+  },
+  {
+    "phrase": "ICE CREAM",
+    "word1": "ICE",
+    "word2": "CREAM",
+    "frequencyScore": 0.99,
+    "category": "food",
+    "alternateForms": ["ICECREAM"]
+  },
+  {
+    "phrase": "COMMON SENSE",
+    "word1": "COMMON",
+    "word2": "SENSE",
+    "frequencyScore": 0.99,
+    "category": "concept",
+    "alternateForms": []
+  },
+  {
+    "phrase": "DEEP SEA",
+    "word1": "DEEP",
+    "word2": "SEA",
+    "frequencyScore": 0.95,
+    "category": "nature",
+    "alternateForms": []
+  },
+  {
+    "phrase": "BLUE SKY",
+    "word1": "BLUE",
+    "word2": "SKY",
+    "frequencyScore": 0.94,
+    "category": "nature",
+    "alternateForms": []
+  },
+  {
+    "phrase": "FRONT PAGE",
+    "word1": "FRONT",
+    "word2": "PAGE",
+    "frequencyScore": 0.97,
+    "category": "media",
+    "alternateForms": []
+  },
+  {
+    "phrase": "HARD ROCK",
+    "word1": "HARD",
+    "word2": "ROCK",
+    "frequencyScore": 0.95,
+    "category": "music",
+    "alternateForms": []
+  },
+  {
+    "phrase": "SHORT CUT",
+    "word1": "SHORT",
+    "word2": "CUT",
+    "frequencyScore": 0.96,
+    "category": "idiom",
+    "alternateForms": ["SHORTCUT"]
+  },
+  {
+    "phrase": "NIGHT OWL",
+    "word1": "NIGHT",
+    "word2": "OWL",
+    "frequencyScore": 0.93,
+    "category": "idiom",
+    "alternateForms": []
+  },
+  {
+    "phrase": "DAY DREAM",
+    "word1": "DAY",
+    "word2": "DREAM",
+    "frequencyScore": 0.94,
+    "category": "concept",
+    "alternateForms": ["DAYDREAM"]
+  }
+]

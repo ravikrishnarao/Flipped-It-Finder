@@ -1,0 +1,137 @@
+[
+  {
+    "id": "holdout-01",
+    "clue1": "DARK",
+    "clue2": "NIGHT",
+    "expectedWord1": "LIGHT",
+    "expectedWord2": "DAY",
+    "expectedPhrase": "LIGHT DAY",
+    "category": "common opposition"
+  },
+  {
+    "id": "holdout-02",
+    "clue1": "LONG",
+    "clue2": "PATH",
+    "expectedWord1": "SHORT",
+    "expectedWord2": "CUT",
+    "expectedPhrase": "SHORT CUT",
+    "category": "idiom"
+  },
+  {
+    "id": "holdout-03",
+    "clue1": "SOFT",
+    "clue2": "STONE",
+    "expectedWord1": "HARD",
+    "expectedWord2": "ROCK",
+    "expectedPhrase": "HARD ROCK",
+    "category": "music / nature"
+  },
+  {
+    "id": "holdout-04",
+    "clue1": "BACK",
+    "clue2": "SHEET",
+    "expectedWord1": "FRONT",
+    "expectedWord2": "PAGE",
+    "expectedPhrase": "FRONT PAGE",
+    "category": "media"
+  },
+  {
+    "id": "holdout-05",
+    "clue1": "SHALLOW",
+    "clue2": "OCEAN",
+    "expectedWord1": "DEEP",
+    "expectedWord2": "SEA",
+    "expectedPhrase": "DEEP SEA",
+    "category": "nature"
+  },
+  {
+    "id": "holdout-06",
+    "clue1": "NIGHT",
+    "clue2": "SLEEP",
+    "expectedWord1": "DAY",
+    "expectedWord2": "DREAM",
+    "expectedPhrase": "DAY DREAM",
+    "category": "psychology"
+  },
+  {
+    "id": "holdout-07",
+    "clue1": "WARM",
+    "clue2": "CAT",
+    "expectedWord1": "HOT",
+    "expectedWord2": "DOG",
+    "expectedPhrase": "HOT DOG",
+    "category": "food"
+  },
+  {
+    "id": "holdout-08",
+    "clue1": "FIRE",
+    "clue2": "MILK",
+    "expectedWord1": "ICE",
+    "expectedWord2": "CREAM",
+    "expectedPhrase": "ICE CREAM",
+    "category": "food"
+  },
+  {
+    "id": "holdout-09",
+    "clue1": "RARE",
+    "clue2": "FEELING",
+    "expectedWord1": "COMMON",
+    "expectedWord2": "SENSE",
+    "expectedPhrase": "COMMON SENSE",
+    "category": "concept"
+  },
+  {
+    "id": "holdout-10",
+    "clue1": "RED",
+    "clue2": "EARTH",
+    "expectedWord1": "BLUE",
+    "expectedWord2": "SKY",
+    "expectedPhrase": "BLUE SKY",
+    "category": "nature"
+  },
+  {
+    "id": "holdout-11",
+    "clue1": "LITTLE",
+    "clue2": "SINK",
+    "expectedWord1": "BIG",
+    "expectedWord2": "FLOAT",
+    "expectedPhrase": "BIG FLOAT",
+    "category": "uncommon phrase"
+  },
+  {
+    "id": "holdout-12",
+    "clue1": "RICH",
+    "clue2": "POVERTY",
+    "expectedWord1": "POOR",
+    "expectedWord2": "WEALTH",
+    "expectedPhrase": "POOR WEALTH",
+    "category": "oxymoron"
+  },
+  {
+    "id": "holdout-13",
+    "clue1": "WET",
+    "clue2": "SOIL",
+    "expectedWord1": "DRY",
+    "expectedWord2": "LAND",
+    "expectedPhrase": "DRY LAND",
+    "category": "geography"
+  },
+  {
+    "id": "holdout-14",
+    "clue1": "HEAVY",
+    "clue2": "SMILE",
+    "expectedWord1": "LIGHT",
+    "expectedWord2": "FROWN",
+    "expectedPhrase": "LIGHT FROWN",
+    "category": "expression"
+  },
+  {
+    "id": "holdout-15",
+    "clue1": "SILENT",
+    "clue2": "WALK",
+    "expectedWord1": "LOUD",
+    "expectedWord2": "RUN",
+    "expectedPhrase": "LOUD RUN",
+    "category": "action"
+  }
+]

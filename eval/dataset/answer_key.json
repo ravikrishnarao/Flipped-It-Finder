@@ -1,0 +1,74 @@
+[
+  {
+    "id": "eval-01",
+    "expectedWord1": "PLASTIC",
+    "expectedWord2": "SMILE",
+    "expectedPhrase": "PLASTIC SMILE",
+    "expectedRelation1": "associated",
+    "expectedRelation2": "antonym",
+    "notes": "Verified Times of India: Synthetic -> PLASTIC (association/material), Frown -> SMILE (direct antonym). Target phrase: PLASTIC SMILE."
+  },
+  {
+    "id": "eval-02",
+    "expectedWord1": "DRY",
+    "expectedWord2": "FRUITS",
+    "expectedPhrase": "DRY FRUITS",
+    "expectedRelation1": "antonym",
+    "expectedRelation2": "counterpart",
+    "notes": "Verified Times of India: Wet -> DRY (direct antonym), Vegetables -> FRUITS (botanical/dietary counterpart). Target phrase: DRY FRUITS (previously hypothesized DRY GREENS)."
+  },
+  {
+    "id": "eval-03",
+    "expectedWord1": "HOME",
+    "expectedWord2": "COMING",
+    "expectedPhrase": "HOME COMING",
+    "expectedRelation1": "synonym",
+    "expectedRelation2": "antonym",
+    "notes": "Verified Times of India: Abode -> HOME (synonym), Leaving -> COMING (antonym). Target phrase: HOME COMING (spaced form)."
+  },
+  {
+    "id": "eval-04",
+    "expectedWord1": "OLD",
+    "expectedWord2": "GARMENTS",
+    "expectedPhrase": "OLD GARMENTS",
+    "expectedRelation1": "antonym",
+    "expectedRelation2": "synonym",
+    "notes": "Verified Times of India: New -> OLD (direct antonym), Clothes -> GARMENTS (direct formal synonym). Target phrase: OLD GARMENTS (previously hypothesized OLD HABIT)."
+  },
+  {
+    "id": "eval-05",
+    "expectedWord1": "SWEET",
+    "expectedWord2": "BOX",
+    "expectedPhrase": "SWEET BOX",
+    "expectedRelation1": "antonym",
+    "expectedRelation2": "synonym",
+    "notes": "Verified Times of India: Salt -> SWEET (taste/flavor antonym), Crate -> BOX (direct container synonym). Target phrase: SWEET BOX (previously hypothesized SUGAR CUBE)."
+  },
+  {
+    "id": "eval-06",
+    "expectedWord1": "DEMON",
+    "expectedWord2": "KING",
+    "expectedPhrase": "DEMON KING",
+    "expectedRelation1": "antonym",
+    "expectedRelation2": "counterpart",
+    "notes": "Verified Times of India: Angel -> DEMON (spiritual/theological antonym), Queen -> KING (monarchical counterpart). Target phrase: DEMON KING (previously hypothesized DEVIL KING)."
+  },
+  {
+    "id": "eval-07",
+    "expectedWord1": "LONG",
+    "expectedWord2": "WEEKEND",
+    "expectedPhrase": "LONG WEEKEND",
+    "expectedRelation1": "antonym",
+    "expectedRelation2": "associated",
+    "notes": "Verified Times of India: Short -> LONG (direct antonym), Weekday -> WEEKEND (calendar counterpart). Target phrase: LONG WEEKEND."
+  },
+  {
+    "id": "eval-08",
+    "expectedWord1": "DEEP",
+    "expectedWord2": "CLEANING",
+    "expectedPhrase": "DEEP CLEANING",
+    "expectedRelation1": "antonym",
+    "expectedRelation2": "antonym",
+    "notes": "Verified Times of India: Shallow -> DEEP (direct antonym), Soiling -> CLEANING (process antonym). Target phrase: DEEP CLEANING (previously hypothesized DEEP CLEAN)."
+  }
+]

@@ -1,0 +1,56 @@
+# Flipit Finder — Google Cloud / Cloud Run Source Deployment Exclusions
+# Excludes non-runtime raw sources, experimental pilot corpus, evaluation/test/dev assets,
+# and local build artifacts so source deployments stay safely below the 250 MB limit
+# while keeping all compiled WordNet/Moby runtime dictionaries intact.
+
+.git/
+.gitignore
+.gcloudignore
+.dockerignore
+Dockerfile
+
+# Dependencies & local build artifacts (rebuilt during deployment)
+node_modules/
+build/
+dist/
+coverage/
+server.js
+.vite/
+tmp/
+*.tmp
+
+# Raw upstream dictionaries & frozen experimental pilot corpus (not used at runtime)
+data/v3/raw/
+data/v3/compiled/corpus_pilot/
+
+# Non-runtime evaluation, test, compilation scripts, docs, and deployment templates
+eval/
+test/
+scripts/
+docs/
+deploy/
+README.md
+.env.example
+
+# Duplicate root favicon (Vite serves and copies public/favicon.ico into dist/)
+/favicon.ico
+
+# Local secrets, environment files, archives, and logs
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*service-account*.json
+*credentials*.json
+*.gz
+*.tsv
+*.tar
+*.tar.*
+*.zip
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

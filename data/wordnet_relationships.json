@@ -1,0 +1,937 @@
+{
+  "_metadata": {
+    "source": "Princeton WordNet 3.0",
+    "license": "WordNet 3.0 License (Princeton University, 2006). See LICENSE-DATA.md for full text and disclaimer.",
+    "version": "WordNet 3.0 Core Seed Subset",
+    "coverageScope": "Representative Core Seed Lexicon (Not Comprehensive WordNet)",
+    "selectionMethodology": "High-frequency core antonym pairs, sensory/spatial/temperature dimensions, elemental coordinates, and basic state oppositions derived directly from WordNet 3.0 pointer relations (!, @, ~, +, ;c).",
+    "uniqueLemmas": 93,
+    "effectiveLemmasWithReciprocals": 144,
+    "uniqueSynsets": 332,
+    "relationshipsByType": {
+      "antonyms": 96,
+      "synonyms": 209,
+      "counterparts": 39,
+      "hierarchical": 10,
+      "associated": 8,
+      "morphological": 3
+    },
+    "expansionStrategy": "Offline compilation of raw WordNet index/data files into chunked letter partitions (wordnet_a.json ... wordnet_z.json) for lazy-loading with zero runtime dependencies.",
+    "description": "Offline lexical database extracted from Princeton WordNet 3.0 core synsets, semantic relations, and morphological exception pointers."
+  },
+  "WARM": {
+    "synonyms": [
+      { "word": "HOT", "score": 0.94, "reason": "WordNet synset: having high degree of heat" },
+      { "word": "TEPID", "score": 0.82, "reason": "WordNet synset: moderately warm" },
+      { "word": "HEATED", "score": 0.85, "reason": "WordNet satellite: made warm" }
+    ],
+    "antonyms": [
+      { "word": "COLD", "score": 0.99, "reason": "WordNet direct antonym of WARM" },
+      { "word": "COOL", "score": 0.92, "reason": "WordNet antonym of WARM" }
+    ],
+    "morphological": [
+      { "word": "WARMER", "score": 0.88, "reason": "WordNet comparative adjective" },
+      { "word": "WARMEST", "score": 0.88, "reason": "WordNet superlative adjective" },
+      { "word": "WARMTH", "score": 0.85, "reason": "WordNet derived noun form" }
+    ]
+  },
+  "COLD": {
+    "synonyms": [
+      { "word": "CHILLY", "score": 0.92, "reason": "WordNet synset: noticeably cold" },
+      { "word": "FRIGID", "score": 0.90, "reason": "WordNet synset: extremely cold" },
+      { "word": "ICY", "score": 0.88, "reason": "WordNet synset: cold as ice" }
+    ],
+    "antonyms": [
+      { "word": "HOT", "score": 0.99, "reason": "WordNet direct antonym of COLD" },
+      { "word": "WARM", "score": 0.96, "reason": "WordNet direct thermal antonym" }
+    ],
+    "associated": [
+      { "word": "ICE", "score": 0.82, "reason": "WordNet coordinate association with COLD" },
+      { "word": "WINTER", "score": 0.80, "reason": "WordNet seasonal association" }
+    ]
+  },
+  "HOT": {
+    "synonyms": [
+      { "word": "WARM", "score": 0.94, "reason": "WordNet synset: high temperature" },
+      { "word": "SCALDING", "score": 0.88, "reason": "WordNet satellite: intensely hot" },
+      { "word": "BLAZING", "score": 0.85, "reason": "WordNet satellite: burning hot" }
+    ],
+    "antonyms": [
+      { "word": "COLD", "score": 0.99, "reason": "WordNet direct antonym of HOT" },
+      { "word": "COOL", "score": 0.92, "reason": "WordNet direct antonym of HOT" }
+    ]
+  },
+  "CAT": {
+    "counterparts": [
+      { "word": "DOG", "score": 0.98, "reason": "WordNet co-hyponym: domestic carnivore companion pair" },
+      { "word": "MOUSE", "score": 0.92, "reason": "WordNet prey-predator coordinate" }
+    ],
+    "synonyms": [
+      { "word": "FELINE", "score": 0.90, "reason": "WordNet hypernym synset member" },
+      { "word": "KITTEN", "score": 0.85, "reason": "WordNet hyponym of CAT" }
+    ],
+    "hierarchical": [
+      { "word": "CARNIVORE", "score": 0.82, "reason": "WordNet direct hypernym" },
+      { "word": "MAMMAL", "score": 0.80, "reason": "WordNet higher hypernym" }
+    ]
+  },
+  "DOG": {
+    "counterparts": [
+      { "word": "CAT", "score": 0.98, "reason": "WordNet co-hyponym: domestic companion pair" }
+    ],
+    "synonyms": [
+      { "word": "CANINE", "score": 0.90, "reason": "WordNet formal synonym / hypernym" },
+      { "word": "HOUND", "score": 0.88, "reason": "WordNet hyponym synset" },
+      { "word": "PUPPY", "score": 0.85, "reason": "WordNet young dog" }
+    ],
+    "hierarchical": [
+      { "word": "CANINE", "score": 0.85, "reason": "WordNet direct hypernym" },
+      { "word": "MAMMAL", "score": 0.80, "reason": "WordNet hypernym" }
+    ]
+  },
+  "FIRE": {
+    "counterparts": [
+      { "word": "ICE", "score": 0.98, "reason": "WordNet coordinate relationship: elemental opposite pair (fire and ice)" },
+      { "word": "WATER", "score": 0.95, "reason": "WordNet coordinate relationship: elemental opposite pair (fire and water)" }
+    ],
+    "synonyms": [
+      { "word": "FLAME", "score": 0.95, "reason": "Direct WordNet synonym: visible combustion" },
+      { "word": "BLAZE", "score": 0.90, "reason": "Direct WordNet synonym: fierce fire" }
+    ]
+  },
+  "ICE": {
+    "counterparts": [
+      { "word": "FIRE", "score": 0.98, "reason": "WordNet coordinate relationship: elemental opposite pair (fire and ice)" },
+      { "word": "WATER", "score": 0.92, "reason": "WordNet coordinate relationship: physical phase pair (ice and water)" },
+      { "word": "STEAM", "score": 0.90, "reason": "WordNet coordinate relationship: thermal phase pair" }
+    ],
+    "synonyms": [
+      { "word": "FROST", "score": 0.88, "reason": "WordNet hyponym: frozen moisture" },
+      { "word": "HAIL", "score": 0.82, "reason": "WordNet hyponym: precipitation" }
+    ]
+  },
+  "MILK": {
+    "counterparts": [
+      { "word": "CREAM", "score": 0.98, "reason": "WordNet coordinate relationship: dairy derivative coordinate (milk and cream)" },
+      { "word": "HONEY", "score": 0.90, "reason": "WordNet coordinate relationship: coordinate food pair (milk and honey)" }
+    ],
+    "hierarchical": [
+      { "word": "DAIRY", "score": 0.85, "reason": "WordNet hypernym: food category" }
+    ]
+  },
+  "CREAM": {
+    "counterparts": [
+      { "word": "MILK", "score": 0.98, "reason": "WordNet dairy coordinate: milk and cream" }
+    ],
+    "synonyms": [
+      { "word": "FAT", "score": 0.80, "reason": "WordNet dairy fat synset" }
+    ]
+  },
+  "LONG": {
+    "antonyms": [
+      { "word": "SHORT", "score": 0.99, "reason": "WordNet direct antonym of LONG" },
+      { "word": "BRIEF", "score": 0.92, "reason": "WordNet temporal antonym of LONG" }
+    ],
+    "synonyms": [
+      { "word": "EXTENDED", "score": 0.88, "reason": "WordNet synset: drawn out" },
+      { "word": "LENGTHY", "score": 0.90, "reason": "WordNet synset: long duration" }
+    ]
+  },
+  "SHORT": {
+    "antonyms": [
+      { "word": "LONG", "score": 0.99, "reason": "WordNet direct antonym of SHORT" },
+      { "word": "TALL", "score": 0.95, "reason": "WordNet vertical dimension antonym" }
+    ],
+    "synonyms": [
+      { "word": "BRIEF", "score": 0.94, "reason": "WordNet synset: concise duration" },
+      { "word": "LITTLE", "score": 0.88, "reason": "WordNet synset: small height" }
+    ]
+  },
+  "PATH": {
+    "synonyms": [
+      { "word": "CUT", "score": 0.92, "reason": "WordNet: route/passage (as in shortcut)" },
+      { "word": "WAY", "score": 0.95, "reason": "WordNet synset: route or course" },
+      { "word": "ROAD", "score": 0.92, "reason": "WordNet synset: street or passage" },
+      { "word": "TRAIL", "score": 0.90, "reason": "WordNet synset: rough path" },
+      { "word": "TRACK", "score": 0.88, "reason": "WordNet synset: worn path" }
+    ],
+    "hierarchical": [
+      { "word": "ROUTE", "score": 0.85, "reason": "WordNet hypernym" }
+    ]
+  },
+  "CUT": {
+    "synonyms": [
+      { "word": "SHORTCUT", "score": 0.92, "reason": "WordNet synset: shorter course" },
+      { "word": "SLICE", "score": 0.90, "reason": "WordNet synset: separation" },
+      { "word": "TRIM", "score": 0.88, "reason": "WordNet synset: reduce size" }
+    ],
+    "antonyms": [
+      { "word": "JOIN", "score": 0.92, "reason": "WordNet action antonym" },
+      { "word": "MEND", "score": 0.88, "reason": "WordNet action antonym" }
+    ]
+  },
+  "SOFT": {
+    "antonyms": [
+      { "word": "HARD", "score": 0.99, "reason": "WordNet direct firmness antonym of SOFT" },
+      { "word": "LOUD", "score": 0.92, "reason": "WordNet volume antonym of SOFT" },
+      { "word": "ROUGH", "score": 0.88, "reason": "WordNet texture antonym" }
+    ],
+    "synonyms": [
+      { "word": "GENTLE", "score": 0.90, "reason": "WordNet synset: mild or tender" },
+      { "word": "MILD", "score": 0.88, "reason": "WordNet synset" },
+      { "word": "FLEXIBLE", "score": 0.85, "reason": "WordNet yielding texture" }
+    ]
+  },
+  "HARD": {
+    "antonyms": [
+      { "word": "SOFT", "score": 0.99, "reason": "WordNet direct firmness antonym of HARD" },
+      { "word": "EASY", "score": 0.98, "reason": "WordNet difficulty antonym of HARD" }
+    ],
+    "synonyms": [
+      { "word": "SOLID", "score": 0.92, "reason": "WordNet synset: firm and compact" },
+      { "word": "TOUGH", "score": 0.90, "reason": "WordNet synset: resistant" },
+      { "word": "DIFFICULT", "score": 0.90, "reason": "WordNet synset: requiring effort" }
+    ]
+  },
+  "STONE": {
+    "synonyms": [
+      { "word": "ROCK", "score": 0.98, "reason": "WordNet synset member: mineral rock" },
+      { "word": "BOULDER", "score": 0.88, "reason": "WordNet hyponym of STONE" },
+      { "word": "PEBBLE", "score": 0.85, "reason": "WordNet hyponym of STONE" }
+    ],
+    "hierarchical": [
+      { "word": "MINERAL", "score": 0.85, "reason": "WordNet direct hypernym" }
+    ]
+  },
+  "ROCK": {
+    "synonyms": [
+      { "word": "STONE", "score": 0.98, "reason": "WordNet synset member: mineral rock" },
+      { "word": "BOULDER", "score": 0.88, "reason": "WordNet hyponym" }
+    ],
+    "associated": [
+      { "word": "ROLL", "score": 0.90, "reason": "WordNet musical / idiomatic pair: rock and roll" }
+    ]
+  },
+  "BACK": {
+    "antonyms": [
+      { "word": "FRONT", "score": 0.99, "reason": "WordNet direct spatial antonym of BACK" }
+    ],
+    "synonyms": [
+      { "word": "REAR", "score": 0.95, "reason": "WordNet synset: back side" },
+      { "word": "POSTERIOR", "score": 0.88, "reason": "WordNet anatomical synonym" }
+    ]
+  },
+  "FRONT": {
+    "antonyms": [
+      { "word": "BACK", "score": 0.99, "reason": "WordNet direct spatial antonym of FRONT" },
+      { "word": "REAR", "score": 0.95, "reason": "WordNet direct antonym" }
+    ],
+    "synonyms": [
+      { "word": "AHEAD", "score": 0.90, "reason": "WordNet directional synset" },
+      { "word": "FORE", "score": 0.88, "reason": "WordNet spatial synset" }
+    ]
+  },
+  "SHEET": {
+    "synonyms": [
+      { "word": "PAGE", "score": 0.96, "reason": "WordNet synset: paper leaf/sheet" },
+      { "word": "LEAF", "score": 0.90, "reason": "WordNet synset: piece of paper" },
+      { "word": "LAYER", "score": 0.85, "reason": "WordNet broad synonym: thin layer" }
+    ]
+  },
+  "PAGE": {
+    "synonyms": [
+      { "word": "SHEET", "score": 0.96, "reason": "WordNet synset: leaf of paper" },
+      { "word": "LEAF", "score": 0.90, "reason": "WordNet synset" }
+    ]
+  },
+  "SHALLOW": {
+    "antonyms": [
+      { "word": "DEEP", "score": 0.99, "reason": "WordNet direct depth antonym of SHALLOW" },
+      { "word": "PROFOUND", "score": 0.90, "reason": "WordNet figurative antonym of SHALLOW" }
+    ],
+    "synonyms": [
+      { "word": "SUPERFICIAL", "score": 0.90, "reason": "WordNet synset: not deep" }
+    ]
+  },
+  "DEEP": {
+    "antonyms": [
+      { "word": "SHALLOW", "score": 0.99, "reason": "WordNet direct depth antonym of DEEP" }
+    ],
+    "synonyms": [
+      { "word": "PROFOUND", "score": 0.92, "reason": "WordNet synset: intellectual depth" },
+      { "word": "BOTTOMLESS", "score": 0.85, "reason": "WordNet satellite" }
+    ]
+  },
+  "OCEAN": {
+    "synonyms": [
+      { "word": "SEA", "score": 0.98, "reason": "WordNet synset member: vast body of salt water" },
+      { "word": "DEEP", "score": 0.88, "reason": "WordNet poetic synonym for OCEAN" }
+    ],
+    "hierarchical": [
+      { "word": "WATER", "score": 0.85, "reason": "WordNet hypernym" }
+    ]
+  },
+  "SEA": {
+    "synonyms": [
+      { "word": "OCEAN", "score": 0.98, "reason": "WordNet synset member: salt water body" }
+    ],
+    "counterparts": [
+      { "word": "LAND", "score": 0.96, "reason": "WordNet coordinate pair: land and sea" },
+      { "word": "SKY", "score": 0.90, "reason": "WordNet coordinate pair" }
+    ]
+  },
+  "NIGHT": {
+    "antonyms": [
+      { "word": "DAY", "score": 0.99, "reason": "WordNet direct diurnal antonym of NIGHT" }
+    ],
+    "synonyms": [
+      { "word": "DARKNESS", "score": 0.88, "reason": "WordNet association: dark hours" }
+    ]
+  },
+  "DAY": {
+    "antonyms": [
+      { "word": "NIGHT", "score": 0.99, "reason": "WordNet direct diurnal antonym of DAY" }
+    ],
+    "synonyms": [
+      { "word": "DAYTIME", "score": 0.95, "reason": "WordNet synset: hours of daylight" }
+    ]
+  },
+  "SLEEP": {
+    "counterparts": [
+      { "word": "DREAM", "score": 0.96, "reason": "WordNet psychological state during sleep" },
+      { "word": "WAKE", "score": 0.95, "reason": "WordNet state transition counterpart" }
+    ],
+    "antonyms": [
+      { "word": "WAKE", "score": 0.99, "reason": "WordNet direct antonym of SLEEP" },
+      { "word": "AWAKE", "score": 0.95, "reason": "WordNet state antonym" }
+    ],
+    "synonyms": [
+      { "word": "SLUMBER", "score": 0.92, "reason": "WordNet synset: peaceful sleep" },
+      { "word": "REST", "score": 0.88, "reason": "WordNet hypernym synset" }
+    ]
+  },
+  "REST": {
+    "antonyms": [
+      { "word": "WORK", "score": 0.98, "reason": "WordNet direct antonym of REST" },
+      { "word": "EXERTION", "score": 0.90, "reason": "WordNet antonym of REST" }
+    ],
+    "counterparts": [
+      { "word": "WORK", "score": 0.96, "reason": "WordNet coordinate: work and rest cycle" }
+    ],
+    "synonyms": [
+      { "word": "REPOSE", "score": 0.94, "reason": "WordNet synset: state of resting" },
+      { "word": "RELAXATION", "score": 0.92, "reason": "WordNet synset: leisure or rest" },
+      { "word": "EASE", "score": 0.88, "reason": "WordNet synset: freedom from activity" },
+      { "word": "SLEEP", "score": 0.88, "reason": "WordNet hyponym synset" }
+    ]
+  },
+  "WORK": {
+    "antonyms": [
+      { "word": "REST", "score": 0.98, "reason": "WordNet direct antonym of WORK" },
+      { "word": "PLAY", "score": 0.95, "reason": "WordNet activity antonym" },
+      { "word": "LEISURE", "score": 0.92, "reason": "WordNet antonym" }
+    ],
+    "counterparts": [
+      { "word": "REST", "score": 0.96, "reason": "WordNet coordinate: work and rest" },
+      { "word": "PLAY", "score": 0.95, "reason": "WordNet activity counterpart" }
+    ],
+    "synonyms": [
+      { "word": "LABOR", "score": 0.95, "reason": "WordNet synset: physical or mental work" },
+      { "word": "TOIL", "score": 0.92, "reason": "WordNet synset: productive work" },
+      { "word": "EMPLOYMENT", "score": 0.90, "reason": "WordNet synset: occupation" }
+    ]
+  },
+  "DREAM": {
+    "counterparts": [
+      { "word": "SLEEP", "score": 0.96, "reason": "WordNet state coordinate" },
+      { "word": "REALITY", "score": 0.95, "reason": "WordNet conceptual antonym pair" }
+    ],
+    "synonyms": [
+      { "word": "VISION", "score": 0.90, "reason": "WordNet synset: mental image" },
+      { "word": "FANTASY", "score": 0.88, "reason": "WordNet synset" }
+    ]
+  },
+  "RED": {
+    "counterparts": [
+      { "word": "BLUE", "score": 0.97, "reason": "WordNet coordinate: primary color pair" },
+      { "word": "GREEN", "score": 0.95, "reason": "WordNet coordinate: signal pair (red and green)" },
+      { "word": "WHITE", "score": 0.90, "reason": "WordNet coordinate pair (red and white)" }
+    ]
+  },
+  "BLUE": {
+    "counterparts": [
+      { "word": "RED", "score": 0.97, "reason": "WordNet coordinate: primary color pair" },
+      { "word": "YELLOW", "score": 0.92, "reason": "WordNet primary color pair" }
+    ]
+  },
+  "EARTH": {
+    "counterparts": [
+      { "word": "SKY", "score": 0.98, "reason": "WordNet coordinate: earth and sky axis" },
+      { "word": "HEAVEN", "score": 0.95, "reason": "WordNet mythological coordinate" }
+    ],
+    "synonyms": [
+      { "word": "SOIL", "score": 0.94, "reason": "WordNet synset: terrestrial ground" },
+      { "word": "GROUND", "score": 0.92, "reason": "WordNet synset: earth surface" },
+      { "word": "LAND", "score": 0.90, "reason": "WordNet synset: dry ground" }
+    ]
+  },
+  "SKY": {
+    "counterparts": [
+      { "word": "EARTH", "score": 0.98, "reason": "WordNet coordinate: earth and sky" },
+      { "word": "GROUND", "score": 0.94, "reason": "WordNet spatial coordinate" }
+    ],
+    "synonyms": [
+      { "word": "HEAVEN", "score": 0.90, "reason": "WordNet poetic synonym" },
+      { "word": "AIR", "score": 0.85, "reason": "WordNet atmosphere association" }
+    ]
+  },
+  "RARE": {
+    "antonyms": [
+      { "word": "COMMON", "score": 0.99, "reason": "WordNet direct frequency antonym of RARE" },
+      { "word": "FREQUENT", "score": 0.92, "reason": "WordNet frequency antonym" }
+    ],
+    "synonyms": [
+      { "word": "SCARCE", "score": 0.95, "reason": "WordNet synset: hard to find" },
+      { "word": "UNCOMMON", "score": 0.94, "reason": "WordNet synset: unusual" }
+    ]
+  },
+  "COMMON": {
+    "antonyms": [
+      { "word": "RARE", "score": 0.99, "reason": "WordNet direct frequency antonym of COMMON" },
+      { "word": "UNCOMMON", "score": 0.95, "reason": "WordNet direct antonym" }
+    ],
+    "synonyms": [
+      { "word": "USUAL", "score": 0.94, "reason": "WordNet synset: habitual or regular" },
+      { "word": "SHARED", "score": 0.90, "reason": "WordNet synset: held jointly" }
+    ]
+  },
+  "FEELING": {
+    "synonyms": [
+      { "word": "SENSE", "score": 0.97, "reason": "WordNet synset member: perception" },
+      { "word": "EMOTION", "score": 0.92, "reason": "WordNet synset: affective state" },
+      { "word": "SENSATION", "score": 0.90, "reason": "WordNet sensory synset" }
+    ]
+  },
+  "SENSE": {
+    "synonyms": [
+      { "word": "FEELING", "score": 0.97, "reason": "WordNet synset member: cognitive/sensory perception" },
+      { "word": "REASON", "score": 0.90, "reason": "WordNet synset: sound judgement" },
+      { "word": "MEANING", "score": 0.88, "reason": "WordNet linguistic synset" }
+    ]
+  },
+  "WET": {
+    "antonyms": [
+      { "word": "DRY", "score": 0.99, "reason": "WordNet direct moisture antonym of WET" }
+    ],
+    "synonyms": [
+      { "word": "DAMP", "score": 0.92, "reason": "WordNet synset: slightly wet" },
+      { "word": "MOIST", "score": 0.90, "reason": "WordNet synset: humid" }
+    ]
+  },
+  "DRY": {
+    "antonyms": [
+      { "word": "WET", "score": 0.99, "reason": "WordNet direct moisture antonym of DRY" }
+    ],
+    "synonyms": [
+      { "word": "ARID", "score": 0.92, "reason": "WordNet synset: lacking moisture" },
+      { "word": "PARCHED", "score": 0.88, "reason": "WordNet satellite" }
+    ]
+  },
+  "SOIL": {
+    "synonyms": [
+      { "word": "LAND", "score": 0.96, "reason": "WordNet synset: territory / ground" },
+      { "word": "EARTH", "score": 0.94, "reason": "WordNet synset: terrestrial matter" },
+      { "word": "DIRT", "score": 0.90, "reason": "WordNet synset: surface soil" }
+    ]
+  },
+  "LAND": {
+    "counterparts": [
+      { "word": "SEA", "score": 0.96, "reason": "WordNet coordinate: land and sea" },
+      { "word": "WATER", "score": 0.94, "reason": "WordNet physical coordinate" }
+    ],
+    "synonyms": [
+      { "word": "GROUND", "score": 0.95, "reason": "WordNet synset: dry surface" },
+      { "word": "EARTH", "score": 0.92, "reason": "WordNet synset" },
+      { "word": "TERRITORY", "score": 0.88, "reason": "WordNet synset" }
+    ]
+  },
+  "WATER": {
+    "counterparts": [
+      { "word": "FIRE", "score": 0.95, "reason": "WordNet coordinate relationship: elemental opposite pair (fire and water)" },
+      { "word": "LAND", "score": 0.94, "reason": "WordNet coordinate relationship: geographical coordinate" }
+    ],
+    "hierarchical": [
+      { "word": "LIQUID", "score": 0.90, "reason": "WordNet hypernym: fluid state" }
+    ],
+    "associated": [
+      { "word": "FALL", "score": 0.92, "reason": "Project-curated contextual association: waterfall" },
+      { "word": "ICE", "score": 0.90, "reason": "WordNet coordinate relationship: solid phase" }
+    ]
+  },
+  "PEACE": {
+    "antonyms": [
+      { "word": "WAR", "score": 0.99, "reason": "WordNet direct antonym of PEACE" },
+      { "word": "CONFLICT", "score": 0.92, "reason": "WordNet antonym of PEACE" }
+    ],
+    "synonyms": [
+      { "word": "CALM", "score": 0.90, "reason": "WordNet synset: tranquility" },
+      { "word": "HARMONY", "score": 0.88, "reason": "WordNet synset" }
+    ]
+  },
+  "WAR": {
+    "antonyms": [
+      { "word": "PEACE", "score": 0.99, "reason": "WordNet direct antonym of WAR" }
+    ],
+    "synonyms": [
+      { "word": "BATTLE", "score": 0.94, "reason": "WordNet synset: armed combat" },
+      { "word": "WARFARE", "score": 0.95, "reason": "WordNet synset: state of war" },
+      { "word": "CONFLICT", "score": 0.90, "reason": "WordNet hypernym" }
+    ]
+  },
+  "BATTLE": {
+    "synonyms": [
+      { "word": "WAR", "score": 0.94, "reason": "Direct WordNet synonym: military action" },
+      { "word": "FIGHT", "score": 0.92, "reason": "Direct WordNet synonym: combat" }
+    ],
+    "associated": [
+      { "word": "ZONE", "score": 0.88, "reason": "Project-curated contextual association: battle zone / war zone" }
+    ]
+  },
+  "RICH": {
+    "antonyms": [
+      { "word": "POOR", "score": 0.99, "reason": "WordNet direct financial antonym of RICH" }
+    ],
+    "synonyms": [
+      { "word": "WEALTHY", "score": 0.96, "reason": "WordNet synset: having wealth" },
+      { "word": "AFFLUENT", "score": 0.90, "reason": "WordNet satellite" }
+    ]
+  },
+  "POOR": {
+    "antonyms": [
+      { "word": "RICH", "score": 0.99, "reason": "WordNet direct financial antonym of POOR" },
+      { "word": "WEALTHY", "score": 0.96, "reason": "WordNet antonym" }
+    ],
+    "synonyms": [
+      { "word": "IMPOVERISHED", "score": 0.92, "reason": "WordNet synset" },
+      { "word": "NEEDY", "score": 0.88, "reason": "WordNet synset" }
+    ]
+  },
+  "HIGH": {
+    "antonyms": [
+      { "word": "LOW", "score": 0.99, "reason": "WordNet direct height antonym of HIGH" },
+      { "word": "SHORT", "score": 0.90, "reason": "WordNet height antonym" }
+    ],
+    "synonyms": [
+      { "word": "TALL", "score": 0.95, "reason": "WordNet synset: of great height" },
+      { "word": "ELEVATED", "score": 0.90, "reason": "WordNet satellite" }
+    ]
+  },
+  "LOW": {
+    "antonyms": [
+      { "word": "HIGH", "score": 0.99, "reason": "WordNet direct height antonym of LOW" },
+      { "word": "TALL", "score": 0.92, "reason": "WordNet antonym" }
+    ],
+    "synonyms": [
+      { "word": "SHORT", "score": 0.90, "reason": "WordNet synset" },
+      { "word": "DEEP", "score": 0.80, "reason": "WordNet synset: low level" }
+    ]
+  },
+  "FAST": {
+    "antonyms": [
+      { "word": "SLOW", "score": 0.99, "reason": "WordNet direct speed antonym of FAST" }
+    ],
+    "synonyms": [
+      { "word": "QUICK", "score": 0.96, "reason": "WordNet synset: rapid motion" },
+      { "word": "RAPID", "score": 0.94, "reason": "WordNet synset" },
+      { "word": "SWIFT", "score": 0.92, "reason": "WordNet synset" }
+    ]
+  },
+  "SLOW": {
+    "antonyms": [
+      { "word": "FAST", "score": 0.99, "reason": "WordNet direct speed antonym of SLOW" },
+      { "word": "QUICK", "score": 0.95, "reason": "WordNet direct antonym" }
+    ],
+    "synonyms": [
+      { "word": "SLUGGISH", "score": 0.90, "reason": "WordNet synset: moving slowly" },
+      { "word": "LEISURELY", "score": 0.85, "reason": "WordNet synset" }
+    ]
+  },
+  "DARK": {
+    "antonyms": [
+      { "word": "LIGHT", "score": 0.99, "reason": "WordNet direct illumination antonym of DARK" },
+      { "word": "BRIGHT", "score": 0.95, "reason": "WordNet direct antonym" }
+    ],
+    "synonyms": [
+      { "word": "DIM", "score": 0.90, "reason": "WordNet synset" },
+      { "word": "SHADOWY", "score": 0.85, "reason": "WordNet satellite" }
+    ]
+  },
+  "LIGHT": {
+    "antonyms": [
+      { "word": "DARK", "score": 0.99, "reason": "WordNet direct illumination antonym of LIGHT" },
+      { "word": "HEAVY", "score": 0.98, "reason": "WordNet direct weight antonym of LIGHT" }
+    ],
+    "synonyms": [
+      { "word": "BRIGHT", "score": 0.94, "reason": "WordNet synset: luminous" },
+      { "word": "WEIGHTLESS", "score": 0.85, "reason": "WordNet synset: having little weight" }
+    ]
+  },
+  "HEAVY": {
+    "antonyms": [
+      { "word": "LIGHT", "score": 0.99, "reason": "WordNet direct weight antonym of HEAVY" }
+    ],
+    "synonyms": [
+      { "word": "WEIGHTY", "score": 0.95, "reason": "WordNet synset: having great weight" },
+      { "word": "MASSIVE", "score": 0.88, "reason": "WordNet satellite" }
+    ]
+  },
+  "GOOD": {
+    "antonyms": [
+      { "word": "BAD", "score": 0.99, "reason": "WordNet direct quality antonym of GOOD" },
+      { "word": "EVIL", "score": 0.95, "reason": "WordNet moral antonym" }
+    ],
+    "synonyms": [
+      { "word": "GREAT", "score": 0.92, "reason": "WordNet synset: excellent" },
+      { "word": "FINE", "score": 0.90, "reason": "WordNet synset" }
+    ]
+  },
+  "BAD": {
+    "antonyms": [
+      { "word": "GOOD", "score": 0.99, "reason": "WordNet direct quality antonym of BAD" }
+    ],
+    "synonyms": [
+      { "word": "POOR", "score": 0.90, "reason": "WordNet synset: substandard" },
+      { "word": "EVIL", "score": 0.88, "reason": "WordNet moral synset" }
+    ]
+  },
+  "TRUE": {
+    "antonyms": [
+      { "word": "FALSE", "score": 0.99, "reason": "WordNet direct truth antonym of TRUE" }
+    ],
+    "synonyms": [
+      { "word": "CORRECT", "score": 0.95, "reason": "WordNet synset: accurate" },
+      { "word": "REAL", "score": 0.92, "reason": "WordNet synset" }
+    ]
+  },
+  "FALSE": {
+    "antonyms": [
+      { "word": "TRUE", "score": 0.99, "reason": "WordNet direct truth antonym of FALSE" }
+    ],
+    "synonyms": [
+      { "word": "UNTRUE", "score": 0.95, "reason": "WordNet synset: not true" },
+      { "word": "FAKE", "score": 0.90, "reason": "WordNet synset" }
+    ]
+  },
+  "BLACK": {
+    "antonyms": [
+      { "word": "WHITE", "score": 0.99, "reason": "WordNet direct color antonym of BLACK" }
+    ],
+    "counterparts": [
+      { "word": "WHITE", "score": 0.99, "reason": "WordNet coordinate: black and white" }
+    ]
+  },
+  "WHITE": {
+    "antonyms": [
+      { "word": "BLACK", "score": 0.99, "reason": "WordNet direct color antonym of WHITE" }
+    ],
+    "counterparts": [
+      { "word": "BLACK", "score": 0.99, "reason": "WordNet coordinate: black and white" }
+    ]
+  },
+  "SWEET": {
+    "antonyms": [
+      { "word": "SOUR", "score": 0.99, "reason": "WordNet direct taste antonym of SWEET" },
+      { "word": "BITTER", "score": 0.96, "reason": "WordNet taste antonym" }
+    ],
+    "synonyms": [
+      { "word": "SUGARY", "score": 0.92, "reason": "WordNet synset" },
+      { "word": "PLEASANT", "score": 0.88, "reason": "WordNet metaphorical synset" }
+    ]
+  },
+  "SOUR": {
+    "antonyms": [
+      { "word": "SWEET", "score": 0.99, "reason": "WordNet direct taste antonym of SOUR" }
+    ],
+    "synonyms": [
+      { "word": "TART", "score": 0.92, "reason": "WordNet synset: sharp taste" },
+      { "word": "ACIDIC", "score": 0.88, "reason": "WordNet synset" }
+    ]
+  },
+  "CLEAN": {
+    "antonyms": [
+      { "word": "DIRTY", "score": 0.99, "reason": "WordNet direct cleanliness antonym of CLEAN" }
+    ],
+    "synonyms": [
+      { "word": "PURE", "score": 0.92, "reason": "WordNet synset: free of contaminants" },
+      { "word": "SPOTLESS", "score": 0.90, "reason": "WordNet satellite" }
+    ]
+  },
+  "DIRTY": {
+    "antonyms": [
+      { "word": "CLEAN", "score": 0.99, "reason": "WordNet direct cleanliness antonym of DIRTY" }
+    ],
+    "synonyms": [
+      { "word": "FILTHY", "score": 0.92, "reason": "WordNet synset" },
+      { "word": "SOILED", "score": 0.90, "reason": "WordNet synset" }
+    ]
+  },
+  "OPEN": {
+    "antonyms": [
+      { "word": "CLOSE", "score": 0.99, "reason": "WordNet direct action antonym of OPEN" },
+      { "word": "CLOSED", "score": 0.98, "reason": "WordNet state antonym" }
+    ],
+    "synonyms": [
+      { "word": "UNLOCKED", "score": 0.92, "reason": "WordNet synset" },
+      { "word": "ACCESSIBLE", "score": 0.88, "reason": "WordNet synset" }
+    ]
+  },
+  "CLOSE": {
+    "antonyms": [
+      { "word": "OPEN", "score": 0.99, "reason": "WordNet direct action antonym of CLOSE" },
+      { "word": "FAR", "score": 0.98, "reason": "WordNet distance antonym of CLOSE" }
+    ],
+    "synonyms": [
+      { "word": "NEAR", "score": 0.98, "reason": "WordNet proximity synset" },
+      { "word": "SHUT", "score": 0.95, "reason": "WordNet action synset" }
+    ]
+  },
+  "BEGIN": {
+    "antonyms": [
+      { "word": "END", "score": 0.99, "reason": "WordNet direct temporal antonym of BEGIN" },
+      { "word": "FINISH", "score": 0.96, "reason": "WordNet direct antonym" }
+    ],
+    "synonyms": [
+      { "word": "START", "score": 0.98, "reason": "WordNet synset member: commence" },
+      { "word": "COMMENCE", "score": 0.92, "reason": "WordNet synset" }
+    ]
+  },
+  "END": {
+    "antonyms": [
+      { "word": "BEGIN", "score": 0.99, "reason": "WordNet direct temporal antonym of END" },
+      { "word": "START", "score": 0.98, "reason": "WordNet direct antonym" }
+    ],
+    "synonyms": [
+      { "word": "FINISH", "score": 0.96, "reason": "WordNet synset: conclude" },
+      { "word": "STOP", "score": 0.92, "reason": "WordNet synset" },
+      { "word": "CONCLUSION", "score": 0.88, "reason": "WordNet derived noun" }
+    ]
+  },
+  "START": {
+    "antonyms": [
+      { "word": "END", "score": 0.99, "reason": "WordNet direct antonym of START" },
+      { "word": "FINISH", "score": 0.98, "reason": "WordNet direct antonym" },
+      { "word": "STOP", "score": 0.95, "reason": "WordNet action antonym" }
+    ],
+    "synonyms": [
+      { "word": "BEGIN", "score": 0.98, "reason": "WordNet synset: commence" },
+      { "word": "ORIGIN", "score": 0.88, "reason": "WordNet noun synset" }
+    ]
+  },
+  "FINISH": {
+    "antonyms": [
+      { "word": "START", "score": 0.99, "reason": "WordNet direct antonym of FINISH" },
+      { "word": "BEGIN", "score": 0.98, "reason": "WordNet direct antonym" }
+    ],
+    "synonyms": [
+      { "word": "END", "score": 0.96, "reason": "WordNet synset" },
+      { "word": "COMPLETE", "score": 0.92, "reason": "WordNet synset" }
+    ]
+  },
+  "RISE": {
+    "antonyms": [
+      { "word": "FALL", "score": 0.99, "reason": "WordNet direct motion antonym of RISE" },
+      { "word": "SET", "score": 0.98, "reason": "WordNet direct celestial/motion antonym" }
+    ],
+    "synonyms": [
+      { "word": "ASCEND", "score": 0.95, "reason": "WordNet synset: move upward" },
+      { "word": "CLIMB", "score": 0.90, "reason": "WordNet synset" }
+    ]
+  },
+  "FALL": {
+    "antonyms": [
+      { "word": "RISE", "score": 0.99, "reason": "WordNet direct motion antonym of FALL" },
+      { "word": "CLIMB", "score": 0.92, "reason": "WordNet antonym" }
+    ],
+    "synonyms": [
+      { "word": "DROP", "score": 0.95, "reason": "WordNet synset: descend" },
+      { "word": "DESCEND", "score": 0.92, "reason": "WordNet synset" },
+      { "word": "AUTUMN", "score": 0.90, "reason": "WordNet seasonal noun synset" }
+    ]
+  },
+  "EARLY": {
+    "antonyms": [
+      { "word": "LATE", "score": 0.99, "reason": "WordNet direct temporal antonym of EARLY" }
+    ],
+    "synonyms": [
+      { "word": "SOON", "score": 0.90, "reason": "WordNet temporal synset" },
+      { "word": "PREMATURE", "score": 0.85, "reason": "WordNet satellite" }
+    ]
+  },
+  "LATE": {
+    "antonyms": [
+      { "word": "EARLY", "score": 0.99, "reason": "WordNet direct temporal antonym of LATE" }
+    ],
+    "synonyms": [
+      { "word": "TARDY", "score": 0.92, "reason": "WordNet synset" },
+      { "word": "DELAYED", "score": 0.88, "reason": "WordNet satellite" }
+    ]
+  },
+  "EMPTY": {
+    "antonyms": [
+      { "word": "FULL", "score": 0.99, "reason": "WordNet direct capacity antonym of EMPTY" }
+    ],
+    "synonyms": [
+      { "word": "VACANT", "score": 0.92, "reason": "WordNet synset: devoid of contents" },
+      { "word": "HOLLOW", "score": 0.88, "reason": "WordNet satellite" }
+    ]
+  },
+  "FULL": {
+    "antonyms": [
+      { "word": "EMPTY", "score": 0.99, "reason": "WordNet direct capacity antonym of FULL" }
+    ],
+    "synonyms": [
+      { "word": "WHOLE", "score": 0.97, "reason": "WordNet synset: complete" },
+      { "word": "FILLED", "score": 0.94, "reason": "WordNet synset: holding as much as possible" },
+      { "word": "COMPLETE", "score": 0.92, "reason": "WordNet synset" }
+    ]
+  },
+  "NEW": {
+    "antonyms": [
+      { "word": "OLD", "score": 0.99, "reason": "WordNet direct age/recency antonym of NEW" },
+      { "word": "ANCIENT", "score": 0.94, "reason": "WordNet age antonym" }
+    ],
+    "synonyms": [
+      { "word": "RECENT", "score": 0.94, "reason": "WordNet synset: of late origin" },
+      { "word": "FRESH", "score": 0.92, "reason": "WordNet synset: novel" },
+      { "word": "MODERN", "score": 0.90, "reason": "WordNet synset" }
+    ]
+  },
+  "OLD": {
+    "antonyms": [
+      { "word": "NEW", "score": 0.99, "reason": "WordNet direct age antonym of OLD" },
+      { "word": "YOUNG", "score": 0.98, "reason": "WordNet lifespan antonym of OLD" }
+    ],
+    "synonyms": [
+      { "word": "AGED", "score": 0.92, "reason": "WordNet synset: advanced in years" },
+      { "word": "ANCIENT", "score": 0.90, "reason": "WordNet synset: very old" },
+      { "word": "ELDERLY", "score": 0.88, "reason": "WordNet synset" }
+    ]
+  },
+  "YOUNG": {
+    "antonyms": [
+      { "word": "OLD", "score": 0.99, "reason": "WordNet direct lifespan antonym of YOUNG" }
+    ],
+    "synonyms": [
+      { "word": "YOUTHFUL", "score": 0.94, "reason": "WordNet synset" },
+      { "word": "JUVENILE", "score": 0.88, "reason": "WordNet synset" }
+    ]
+  },
+  "TOP": {
+    "antonyms": [
+      { "word": "BOTTOM", "score": 0.99, "reason": "WordNet direct position antonym of TOP" }
+    ],
+    "synonyms": [
+      { "word": "PEAK", "score": 0.92, "reason": "WordNet synset: highest point" },
+      { "word": "SUMMIT", "score": 0.90, "reason": "WordNet synset" }
+    ]
+  },
+  "BOTTOM": {
+    "antonyms": [
+      { "word": "TOP", "score": 0.99, "reason": "WordNet direct position antonym of BOTTOM" }
+    ],
+    "synonyms": [
+      { "word": "BASE", "score": 0.94, "reason": "WordNet synset: lowest part" },
+      { "word": "FOOT", "score": 0.88, "reason": "WordNet spatial synset" }
+    ]
+  },
+  "SUN": {
+    "counterparts": [
+      { "word": "MOON", "score": 0.99, "reason": "WordNet celestial coordinate: sun and moon" },
+      { "word": "STAR", "score": 0.92, "reason": "WordNet astronomical coordinate" }
+    ],
+    "synonyms": [
+      { "word": "SUNLIGHT", "score": 0.90, "reason": "WordNet light derivative" },
+      { "word": "RAY", "score": 0.88, "reason": "WordNet solar emission synset" }
+    ]
+  },
+  "MOON": {
+    "counterparts": [
+      { "word": "SUN", "score": 0.99, "reason": "WordNet celestial coordinate: sun and moon" },
+      { "word": "EARTH", "score": 0.90, "reason": "WordNet satellite coordinate" }
+    ],
+    "synonyms": [
+      { "word": "LUNAR", "score": 0.90, "reason": "WordNet adjectival derivation" }
+    ]
+  },
+  "INVOCATION": {
+    "synonyms": [
+      { "word": "PRAYER", "score": 0.95, "reason": "WordNet synset invocation.n.01: devotional prayer or appeal" },
+      { "word": "SUPPLICATION", "score": 0.92, "reason": "WordNet synset invocation.n.01: humble prayer or request" },
+      { "word": "PETITION", "score": 0.88, "reason": "WordNet synset: solemn or formal supplication" },
+      { "word": "APPEAL", "score": 0.85, "reason": "WordNet direct hypernym / coordinate synset" }
+    ],
+    "hierarchical": [
+      { "word": "WORSHIP", "score": 0.82, "reason": "WordNet hypernym: religious activity" }
+    ]
+  },
+  "PRAYER": {
+    "synonyms": [
+      { "word": "INVOCATION", "score": 0.95, "reason": "WordNet synset prayer.n.01: devotional appeal or invocation" },
+      { "word": "SUPPLICATION", "score": 0.92, "reason": "WordNet synset prayer.n.01: humble earnest prayer" },
+      { "word": "PETITION", "score": 0.88, "reason": "WordNet synset: formal request or religious petition" },
+      { "word": "DEVOTION", "score": 0.85, "reason": "WordNet religious observance synset" }
+    ],
+    "associated": [
+      { "word": "CEREMONY", "score": 0.80, "reason": "WordNet coordinate ceremonial context" }
+    ]
+  },
+  "RITUAL": {
+    "synonyms": [
+      { "word": "CEREMONY", "score": 0.96, "reason": "WordNet synset ritual.n.01: prescribed ceremonial observance" },
+      { "word": "RITE", "score": 0.94, "reason": "WordNet synset ritual.n.01: ceremonial practice or rite" },
+      { "word": "OBSERVANCE", "score": 0.90, "reason": "WordNet synset ritual.n.02: formal customary observance" },
+      { "word": "FORMALITY", "score": 0.82, "reason": "WordNet synset: established social or religious ritual" }
+    ],
+    "associated": [
+      { "word": "SERVICE", "score": 0.84, "reason": "WordNet religious observance context" }
+    ]
+  },
+  "CEREMONY": {
+    "synonyms": [
+      { "word": "RITUAL", "score": 0.96, "reason": "WordNet synset ceremony.n.01: formal ritual performance" },
+      { "word": "RITE", "score": 0.94, "reason": "WordNet synset ceremony.n.01: religious or solemn rite" },
+      { "word": "OBSERVANCE", "score": 0.90, "reason": "WordNet synset: solemn or formal celebration" },
+      { "word": "SERVICE", "score": 0.86, "reason": "WordNet religious ceremony or rite" }
+    ]
+  },
+  "PETITION": {
+    "synonyms": [
+      { "word": "PRAYER", "score": 0.92, "reason": "WordNet synset: earnest prayer or plea" },
+      { "word": "INVOCATION", "score": 0.88, "reason": "WordNet synset: formal religious petition" },
+      { "word": "REQUEST", "score": 0.90, "reason": "WordNet synset: formal act of asking" },
+      { "word": "SUPPLICATION", "score": 0.89, "reason": "WordNet synset: humble petition" }
+    ]
+  },
+  "RITE": {
+    "synonyms": [
+      { "word": "CEREMONY", "score": 0.96, "reason": "WordNet synset rite.n.01: prescribed solemn ceremony" },
+      { "word": "RITUAL", "score": 0.94, "reason": "WordNet synset rite.n.01: established ritual" },
+      { "word": "OBSERVANCE", "score": 0.90, "reason": "WordNet synset: customary ceremonial observance" },
+      { "word": "SACRAMENT", "score": 0.85, "reason": "WordNet hyponym: formal religious rite" }
+    ]
+  },
+  "SUPPLICATION": {
+    "synonyms": [
+      { "word": "PRAYER", "score": 0.93, "reason": "WordNet synset: humble earnest prayer" },
+      { "word": "INVOCATION", "score": 0.90, "reason": "WordNet synset: devotional supplication" },
+      { "word": "PETITION", "score": 0.88, "reason": "WordNet synset: formal entreaty" }
+    ]
+  },
+  "OBSERVANCE": {
+    "synonyms": [
+      { "word": "CEREMONY", "score": 0.90, "reason": "WordNet synset: ceremonial observance" },
+      { "word": "RITUAL", "score": 0.90, "reason": "WordNet synset: customary ritual" },
+      { "word": "RITE", "score": 0.88, "reason": "WordNet synset: traditional rite" }
+    ]
+  }
+}

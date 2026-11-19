@@ -1,0 +1,43 @@
+{
+  "evaluationDate": "2026-11-14T11:05:42.527Z",
+  "engineVersion": "V2.2.4 Corrected Baseline (Times of India Verified)",
+  "totalPuzzles": 8,
+  "datasetChecksums": {
+    "data/relationships.json": "f519253f8435352ccb608a6b6f1a538def08acb4b09739b26774881f643d5dc9",
+    "data/phrases.json": "86c00b16762926036e624c1968b2466e6f0fd7b042590195edf10f9ca4440163",
+    "data/wordnet_relationships.json": "ad2e8aed62f30d68406e452aaff0d5b2af13086c6a973ccfedb96d62be6f33c5",
+    "data/moby_phrases.json": "c773c0085c44aef33ae6b830de6e317eedf4681e91c9729e11473727d3de0a3c",
+    "data/contextual_associations.json": "4c4c9eea2eb53321a35b8b1d57621a00ff014e13d0de8b8bf5e3afb53fca02db"
+  },
+  "checksumsVerified": true,
+  "accuracy": {
+    "top1Count": 0,
+    "top1AccuracyPercent": 0,
+    "top5Count": 0,
+    "top5AccuracyPercent": 0
+  },
+  "recall": {
+    "word1RecallCount": 4,
+    "word1RecallPercent": 50,
+    "word2RecallCount": 0,
+    "word2RecallPercent": 0,
+    "bothWordsRecallCount": 0,
+    "bothWordsRecallPercent": 0,
+    "phraseRecognitionCount": 0,
+    "phraseRecognitionPercent": 0
+  },
+  "performance": {
+    "meanLatencyMs": 0.83,
+    "p95LatencyMs": 3.94,
+    "totalCombinationsEvaluated": 144
+  },
+  "failureDistribution": {
+    "F1: Missing first transformation": 4,
+    "F2: Missing second transformation": 4,
+    "F3: Constraint rejection": 0,
+    "F4: Phrase recognition failure": 0,
+    "F5: Ranking failure": 0,
+    "F6: Solver integration failure": 0,
+    "F7: Other": 0
+  }
+}

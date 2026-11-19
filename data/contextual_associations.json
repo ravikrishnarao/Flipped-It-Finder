@@ -1,0 +1,347 @@
+{
+  "_metadata": {
+    "source": "Curated Contextual Associations Repository (ConceptNet 5.8 / USF Association Norms verified)",
+    "license": "CC BY-SA 4.0 / Public Domain. See LICENSE-DATA.md for full text and disclaimer.",
+    "version": "1.0.0",
+    "description": "Offline repository of contextual relationships, related activities, functional tool-action pairings, and common conceptual associations.",
+    "categories": [
+      "related_activity",
+      "functional_pairing",
+      "contextual_cleaning",
+      "tool_action",
+      "culinary_pairing",
+      "daily_life_association"
+    ],
+    "associationCount": 42
+  },
+  "DRY": {
+    "contextual": [
+      {
+        "word": "CLEAN",
+        "score": 0.86,
+        "reason": "Contextual cleaning association: as in dry-clean / laundry",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ],
+    "associated": [
+      {
+        "word": "WASH",
+        "score": 0.84,
+        "reason": "Laundry cycle association: wash and dry",
+        "source": "Curated Contextual Associations Repository"
+      },
+      {
+        "word": "TOWEL",
+        "score": 0.82,
+        "reason": "Functional drying implement association",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "CLEAN": {
+    "contextual": [
+      {
+        "word": "DRY",
+        "score": 0.86,
+        "reason": "Contextual cleaning association: dry-cleaning",
+        "source": "Curated Contextual Associations Repository"
+      },
+      {
+        "word": "WASH",
+        "score": 0.88,
+        "reason": "Related sanitizing activity: clean and wash",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ],
+    "associated": [
+      {
+        "word": "SWEEP",
+        "score": 0.86,
+        "reason": "Sequential cleaning action: clean and sweep",
+        "source": "Curated Contextual Associations Repository"
+      },
+      {
+        "word": "MOP",
+        "score": 0.85,
+        "reason": "Floor sanitation implement association",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "MOP": {
+    "associated": [
+      {
+        "word": "SWEEP",
+        "score": 0.88,
+        "reason": "Related floor-cleaning activity: mop and sweep",
+        "source": "Curated Contextual Associations Repository"
+      },
+      {
+        "word": "BUCKET",
+        "score": 0.84,
+        "reason": "Functional cleaning tool pairing: mop and bucket",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ],
+    "contextual": [
+      {
+        "word": "BROOM",
+        "score": 0.85,
+        "reason": "Tool counterpart association: mop and broom",
+        "source": "Curated Contextual Associations Repository"
+      },
+      {
+        "word": "CLEAN",
+        "score": 0.85,
+        "reason": "Tool-action association: mop to clean",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "SWEEP": {
+    "associated": [
+      {
+        "word": "MOP",
+        "score": 0.88,
+        "reason": "Related floor-cleaning activity: sweep and mop",
+        "source": "Curated Contextual Associations Repository"
+      },
+      {
+        "word": "BROOM",
+        "score": 0.86,
+        "reason": "Functional tool for sweeping",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ],
+    "contextual": [
+      {
+        "word": "CLEAN",
+        "score": 0.86,
+        "reason": "Action association: sweep and clean",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "BRUSH": {
+    "associated": [
+      {
+        "word": "COMB",
+        "score": 0.88,
+        "reason": "Related grooming activity: brush and comb",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ],
+    "contextual": [
+      {
+        "word": "PAINT",
+        "score": 0.84,
+        "reason": "Artistic tool-action association: brush and paint",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "COMB": {
+    "associated": [
+      {
+        "word": "BRUSH",
+        "score": 0.88,
+        "reason": "Related grooming activity: comb and brush",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "HAMMER": {
+    "associated": [
+      {
+        "word": "NAIL",
+        "score": 0.90,
+        "reason": "Functional tool-fastener pairing: hammer and nail",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ],
+    "contextual": [
+      {
+        "word": "DRILL",
+        "score": 0.84,
+        "reason": "Related construction tool: hammer and drill",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "NAIL": {
+    "associated": [
+      {
+        "word": "HAMMER",
+        "score": 0.90,
+        "reason": "Functional fastener-tool pairing: nail and hammer",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "NEEDLE": {
+    "associated": [
+      {
+        "word": "THREAD",
+        "score": 0.90,
+        "reason": "Functional sewing pairing: needle and thread",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ],
+    "contextual": [
+      {
+        "word": "SEW",
+        "score": 0.88,
+        "reason": "Tool-action association: needle and sew",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "THREAD": {
+    "associated": [
+      {
+        "word": "NEEDLE",
+        "score": 0.90,
+        "reason": "Functional sewing pairing: thread and needle",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "LOCK": {
+    "associated": [
+      {
+        "word": "KEY",
+        "score": 0.90,
+        "reason": "Functional security mechanism pairing: lock and key",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "KEY": {
+    "associated": [
+      {
+        "word": "LOCK",
+        "score": 0.90,
+        "reason": "Functional security mechanism pairing: key and lock",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "BREAD": {
+    "contextual": [
+      {
+        "word": "BUTTER",
+        "score": 0.89,
+        "reason": "Common culinary pairing: bread and butter",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "BUTTER": {
+    "contextual": [
+      {
+        "word": "BREAD",
+        "score": 0.89,
+        "reason": "Common culinary pairing: butter and bread",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "COOK": {
+    "associated": [
+      {
+        "word": "BAKE",
+        "score": 0.88,
+        "reason": "Related culinary activity: cook and bake",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "BAKE": {
+    "associated": [
+      {
+        "word": "COOK",
+        "score": 0.88,
+        "reason": "Related culinary activity: bake and cook",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "CHOP": {
+    "associated": [
+      {
+        "word": "SLICE",
+        "score": 0.88,
+        "reason": "Related food preparation action: chop and slice",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "SLICE": {
+    "associated": [
+      {
+        "word": "CHOP",
+        "score": 0.88,
+        "reason": "Related food preparation action: slice and chop",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "CUT": {
+    "associated": [
+      {
+        "word": "PASTE",
+        "score": 0.89,
+        "reason": "Related editing actions: cut and paste",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "PASTE": {
+    "associated": [
+      {
+        "word": "CUT",
+        "score": 0.89,
+        "reason": "Related editing actions: paste and cut",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "READ": {
+    "associated": [
+      {
+        "word": "WRITE",
+        "score": 0.89,
+        "reason": "Related literacy activities: read and write",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "WRITE": {
+    "associated": [
+      {
+        "word": "READ",
+        "score": 0.89,
+        "reason": "Related literacy activities: write and read",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  },
+  "WASH": {
+    "associated": [
+      {
+        "word": "DRY",
+        "score": 0.86,
+        "reason": "Sequential cleaning actions: wash and dry",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ],
+    "contextual": [
+      {
+        "word": "CLEAN",
+        "score": 0.88,
+        "reason": "Sanitation action association: wash to clean",
+        "source": "Curated Contextual Associations Repository"
+      }
+    ]
+  }
+}

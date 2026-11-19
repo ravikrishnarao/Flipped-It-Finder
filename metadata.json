@@ -1,0 +1,6 @@
+{
+  "name": "Flipit Finder",
+  "description": "A JavaScript and Node.js word puzzle solving engine for clue-pair transformations and common phrase discovery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

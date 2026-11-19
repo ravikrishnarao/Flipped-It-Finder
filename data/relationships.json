@@ -1,0 +1,339 @@
+{
+  "SLOW": {
+    "antonyms": [
+      { "word": "FAST", "score": 0.98, "reason": "Direct antonym of SLOW" },
+      { "word": "QUICK", "score": 0.95, "reason": "Antonym of SLOW" },
+      { "word": "RAPID", "score": 0.9, "reason": "Antonym of SLOW" },
+      { "word": "SWIFT", "score": 0.88, "reason": "Antonym of SLOW" }
+    ],
+    "synonyms": [
+      { "word": "SLUGGISH", "score": 0.9, "reason": "Synonym of SLOW" },
+      { "word": "LEISURELY", "score": 0.85, "reason": "Synonym of SLOW" }
+    ]
+  },
+  "MEAL": {
+    "synonyms": [
+      { "word": "FOOD", "score": 0.96, "reason": "Synonym/substance of MEAL" },
+      { "word": "FEAST", "score": 0.9, "reason": "Synonym of MEAL" },
+      { "word": "DISH", "score": 0.88, "reason": "Synonym/component of MEAL" },
+      { "word": "DINNER", "score": 0.85, "reason": "Type of MEAL" },
+      { "word": "SNACK", "score": 0.8, "reason": "Informal small MEAL" }
+    ]
+  },
+  "GRADE": {
+    "synonyms": [
+      { "word": "CLASS", "score": 0.96, "reason": "Synonym of GRADE (school year/rank)" },
+      { "word": "RANK", "score": 0.9, "reason": "Synonym of GRADE" },
+      { "word": "LEVEL", "score": 0.88, "reason": "Synonym of GRADE" },
+      { "word": "MARK", "score": 0.85, "reason": "Synonym of GRADE (assessment)" }
+    ]
+  },
+  "FRIEND": {
+    "synonyms": [
+      { "word": "MATE", "score": 0.96, "reason": "Synonym of FRIEND (colloquial partner)" },
+      { "word": "PAL", "score": 0.95, "reason": "Synonym of FRIEND" },
+      { "word": "BUDDY", "score": 0.93, "reason": "Synonym of FRIEND" },
+      { "word": "COMPANION", "score": 0.9, "reason": "Synonym of FRIEND" },
+      { "word": "ALLY", "score": 0.85, "reason": "Synonym of FRIEND" }
+    ],
+    "antonyms": [
+      { "word": "ENEMY", "score": 0.98, "reason": "Direct antonym of FRIEND" },
+      { "word": "FOE", "score": 0.95, "reason": "Antonym of FRIEND" }
+    ]
+  },
+  "LOW": {
+    "antonyms": [
+      { "word": "HIGH", "score": 0.99, "reason": "Direct antonym of LOW" },
+      { "word": "TALL", "score": 0.85, "reason": "Antonym of LOW (in height)" }
+    ],
+    "synonyms": [
+      { "word": "SHORT", "score": 0.85, "reason": "Synonym of LOW" },
+      { "word": "DEEP", "score": 0.75, "reason": "Association with LOW" }
+    ]
+  },
+  "WAVE": {
+    "counterparts": [
+      { "word": "TIDE", "score": 0.96, "reason": "Oceanic counterpart/pair of WAVE" },
+      { "word": "CURRENT", "score": 0.88, "reason": "Water movement counterpart of WAVE" }
+    ],
+    "synonyms": [
+      { "word": "SWELL", "score": 0.85, "reason": "Synonym of sea WAVE" },
+      { "word": "RIPPLE", "score": 0.8, "reason": "Synonym of small WAVE" }
+    ]
+  },
+  "PEACE": {
+    "antonyms": [
+      { "word": "WAR", "score": 0.99, "reason": "Direct antonym of PEACE" },
+      { "word": "CONFLICT", "score": 0.9, "reason": "Antonym of PEACE" },
+      { "word": "CHAOS", "score": 0.85, "reason": "Antonym of PEACE" }
+    ],
+    "synonyms": [
+      { "word": "CALM", "score": 0.9, "reason": "Synonym of PEACE" },
+      { "word": "TRANQUILITY", "score": 0.88, "reason": "Synonym of PEACE" }
+    ]
+  },
+  "LAUGH": {
+    "antonyms": [
+      { "word": "CRY", "score": 0.98, "reason": "Direct emotional antonym/flip of LAUGH" },
+      { "word": "WEEP", "score": 0.9, "reason": "Antonym of LAUGH" },
+      { "word": "FROWN", "score": 0.88, "reason": "Antonym of smile/LAUGH" }
+    ],
+    "counterparts": [
+      { "word": "CRY", "score": 0.96, "reason": "Counterpart pairing (laugh and cry)" }
+    ],
+    "synonyms": [
+      { "word": "CHUCKLE", "score": 0.9, "reason": "Synonym of LAUGH" },
+      { "word": "GIGGLE", "score": 0.88, "reason": "Synonym of LAUGH" }
+    ]
+  },
+  "SILVER": {
+    "counterparts": [
+      { "word": "GOLDEN", "score": 0.97, "reason": "Adjectival counterpart of SILVER (silver/golden)" },
+      { "word": "GOLD", "score": 0.96, "reason": "Precious metal counterpart of SILVER" },
+      { "word": "BRONZE", "score": 0.9, "reason": "Medal counterpart of SILVER" }
+    ],
+    "contextual": [
+      { "word": "GOLDEN", "score": 0.95, "reason": "Periodic award pairing: silver age to golden age" }
+    ]
+  },
+  "PERIOD": {
+    "synonyms": [
+      { "word": "AGE", "score": 0.97, "reason": "Synonym for historical era or duration" },
+      { "word": "ERA", "score": 0.95, "reason": "Synonym of PERIOD" },
+      { "word": "EPOCH", "score": 0.9, "reason": "Synonym of PERIOD" },
+      { "word": "TIME", "score": 0.85, "reason": "Broad synonym of PERIOD" }
+    ]
+  },
+  "MOON": {
+    "counterparts": [
+      { "word": "SUN", "score": 0.99, "reason": "Celestial counterpart of MOON" },
+      { "word": "STAR", "score": 0.85, "reason": "Night sky counterpart of MOON" }
+    ],
+    "contextual": [
+      { "word": "SOLAR", "score": 0.9, "reason": "Opposite celestial adjective" }
+    ]
+  },
+  "BEAM": {
+    "synonyms": [
+      { "word": "RAY", "score": 0.97, "reason": "Synonym of light BEAM" },
+      { "word": "SHAFT", "score": 0.88, "reason": "Synonym of light BEAM" },
+      { "word": "GLOW", "score": 0.82, "reason": "Association with BEAM" }
+    ]
+  },
+  "SUN": {
+    "counterparts": [
+      { "word": "MOON", "score": 0.99, "reason": "Celestial counterpart of SUN" },
+      { "word": "SHADE", "score": 0.88, "reason": "Counterpart/opposite of direct SUN" }
+    ],
+    "antonyms": [
+      { "word": "MOON", "score": 0.95, "reason": "Day vs night celestial counter" }
+    ]
+  },
+  "DARK": {
+    "antonyms": [
+      { "word": "LIGHT", "score": 0.99, "reason": "Direct antonym of DARK" },
+      { "word": "BRIGHT", "score": 0.95, "reason": "Antonym of DARK" }
+    ],
+    "synonyms": [
+      { "word": "DIM", "score": 0.9, "reason": "Synonym of DARK" },
+      { "word": "SHADOW", "score": 0.85, "reason": "Synonym/form of DARK" }
+    ]
+  },
+  "SET": {
+    "antonyms": [
+      { "word": "RISE", "score": 0.98, "reason": "Direct action antonym of SET (e.g. sun set / sun rise)" },
+      { "word": "FALL", "score": 0.7, "reason": "Antonym of rise" }
+    ],
+    "counterparts": [
+      { "word": "RISE", "score": 0.96, "reason": "Directional counterpart of SET" }
+    ],
+    "synonyms": [
+      { "word": "PLACE", "score": 0.85, "reason": "Synonym of SET" },
+      { "word": "PUT", "score": 0.8, "reason": "Synonym of SET" }
+    ]
+  },
+  "NOVEL": {
+    "synonyms": [
+      { "word": "BOOK", "score": 0.97, "reason": "Synonym / generic hypernym of NOVEL" },
+      { "word": "STORY", "score": 0.88, "reason": "Synonym of NOVEL" },
+      { "word": "TALE", "score": 0.85, "reason": "Synonym of NOVEL" }
+    ],
+    "antonyms": [
+      { "word": "OLD", "score": 0.85, "reason": "Antonym of novel (adjective: new vs old)" },
+      { "word": "COMMON", "score": 0.8, "reason": "Antonym of novel (original vs common)" }
+    ]
+  },
+  "CUPBOARD": {
+    "counterparts": [
+      { "word": "SHELF", "score": 0.96, "reason": "Storage furniture counterpart of CUPBOARD" },
+      { "word": "DRAWER", "score": 0.9, "reason": "Furniture storage counterpart" }
+    ],
+    "synonyms": [
+      { "word": "CABINET", "score": 0.92, "reason": "Synonym of CUPBOARD" },
+      { "word": "CLOSET", "score": 0.88, "reason": "Synonym of CUPBOARD" }
+    ]
+  },
+  "TABLE": {
+    "counterparts": [
+      { "word": "CHAIR", "score": 0.99, "reason": "Everyday furniture counterpart of TABLE (table and chair)" },
+      { "word": "DESK", "score": 0.88, "reason": "Work furniture counterpart" }
+    ],
+    "synonyms": [
+      { "word": "BOARD", "score": 0.8, "reason": "Synonym of TABLE" }
+    ]
+  },
+  "MAN": {
+    "synonyms": [
+      { "word": "PERSON", "score": 0.96, "reason": "Gender-neutral / generic synonym of MAN" },
+      { "word": "GUY", "score": 0.92, "reason": "Informal synonym of MAN" },
+      { "word": "FELLOW", "score": 0.9, "reason": "Synonym of MAN" },
+      { "word": "HUMAN", "score": 0.88, "reason": "Hypernym of MAN" }
+    ],
+    "antonyms": [
+      { "word": "WOMAN", "score": 0.98, "reason": "Gender antonym of MAN" },
+      { "word": "BOY", "score": 0.9, "reason": "Age antonym of MAN" }
+    ],
+    "counterparts": [
+      { "word": "WOMAN", "score": 0.98, "reason": "Counterpart pairing of MAN" }
+    ]
+  },
+  "BAD": {
+    "antonyms": [
+      { "word": "GOOD", "score": 0.99, "reason": "Direct antonym of BAD" },
+      { "word": "GREAT", "score": 0.9, "reason": "Antonym of BAD" }
+    ],
+    "synonyms": [
+      { "word": "POOR", "score": 0.9, "reason": "Synonym of BAD" },
+      { "word": "EVIL", "score": 0.85, "reason": "Synonym of BAD" }
+    ]
+  },
+  "FORTUNE": {
+    "synonyms": [
+      { "word": "LUCK", "score": 0.98, "reason": "Direct synonym of FORTUNE" },
+      { "word": "CHANCE", "score": 0.9, "reason": "Synonym of FORTUNE" },
+      { "word": "WEALTH", "score": 0.88, "reason": "Financial synonym of FORTUNE" },
+      { "word": "DESTINY", "score": 0.85, "reason": "Synonym of FORTUNE" }
+    ]
+  },
+  "NEAR": {
+    "synonyms": [
+      { "word": "CLOSE", "score": 0.98, "reason": "Direct synonym of NEAR" },
+      { "word": "ADJACENT", "score": 0.88, "reason": "Synonym of NEAR" },
+      { "word": "NIGH", "score": 0.82, "reason": "Archaic synonym of NEAR" }
+    ],
+    "antonyms": [
+      { "word": "FAR", "score": 0.99, "reason": "Direct antonym of NEAR" },
+      { "word": "DISTANT", "score": 0.92, "reason": "Antonym of NEAR" }
+    ]
+  },
+  "DOWN": {
+    "antonyms": [
+      { "word": "UP", "score": 0.99, "reason": "Direct spatial antonym of DOWN" }
+    ],
+    "synonyms": [
+      { "word": "BELOW", "score": 0.9, "reason": "Synonym of DOWN" },
+      { "word": "UNDER", "score": 0.85, "reason": "Synonym of DOWN" }
+    ]
+  },
+  "EAR": {
+    "counterparts": [
+      { "word": "EYE", "score": 0.98, "reason": "Sensory organ counterpart of EAR (eye and ear)" },
+      { "word": "NOSE", "score": 0.9, "reason": "Facial organ counterpart" },
+      { "word": "MOUTH", "score": 0.9, "reason": "Facial organ counterpart" }
+    ]
+  },
+  "CAP": {
+    "counterparts": [
+      { "word": "LID", "score": 0.97, "reason": "Covering counterpart / synonym of CAP (lid and cap)" },
+      { "word": "HAT", "score": 0.92, "reason": "Headwear counterpart/synonym of CAP" }
+    ],
+    "synonyms": [
+      { "word": "LID", "score": 0.95, "reason": "Covering synonym of CAP" },
+      { "word": "TOP", "score": 0.9, "reason": "Synonym of CAP" },
+      { "word": "COVER", "score": 0.88, "reason": "Synonym of CAP" }
+    ]
+  },
+  "FULL": {
+    "synonyms": [
+      { "word": "WHOLE", "score": 0.97, "reason": "Synonym of FULL (complete, total)" },
+      { "word": "COMPLETE", "score": 0.92, "reason": "Synonym of FULL" },
+      { "word": "TOTAL", "score": 0.9, "reason": "Synonym of FULL" }
+    ],
+    "antonyms": [
+      { "word": "EMPTY", "score": 0.99, "reason": "Direct antonym of FULL" },
+      { "word": "PARTIAL", "score": 0.9, "reason": "Antonym of FULL" }
+    ]
+  },
+  "PURCHASE": {
+    "counterparts": [
+      { "word": "SALE", "score": 0.97, "reason": "Commercial transaction counterpart of PURCHASE (buy and sell)" },
+      { "word": "SELL", "score": 0.95, "reason": "Action counterpart of PURCHASE" }
+    ],
+    "antonyms": [
+      { "word": "SALE", "score": 0.95, "reason": "Commercial opposite of PURCHASE" }
+    ],
+    "synonyms": [
+      { "word": "BUY", "score": 0.96, "reason": "Synonym of PURCHASE" },
+      { "word": "ACQUIRE", "score": 0.88, "reason": "Synonym of PURCHASE" }
+    ]
+  },
+  "ANCIENT": {
+    "antonyms": [
+      { "word": "MODERN", "score": 0.99, "reason": "Direct chronological antonym of ANCIENT" },
+      { "word": "NEW", "score": 0.92, "reason": "Antonym of ANCIENT" },
+      { "word": "RECENT", "score": 0.9, "reason": "Antonym of ANCIENT" }
+    ],
+    "synonyms": [
+      { "word": "OLD", "score": 0.92, "reason": "Synonym of ANCIENT" },
+      { "word": "ANTIQUE", "score": 0.88, "reason": "Synonym of ANCIENT" }
+    ]
+  },
+  "CRAFT": {
+    "synonyms": [
+      { "word": "ART", "score": 0.97, "reason": "Creative discipline counterpart and synonym of CRAFT" },
+      { "word": "SKILL", "score": 0.92, "reason": "Synonym of CRAFT" },
+      { "word": "TRADE", "score": 0.88, "reason": "Synonym of CRAFT" }
+    ]
+  },
+  "LAST": {
+    "antonyms": [
+      { "word": "FIRST", "score": 0.99, "reason": "Direct positional/ordinal antonym of LAST" }
+    ],
+    "synonyms": [
+      { "word": "FINAL", "score": 0.95, "reason": "Synonym of LAST" },
+      { "word": "ULTIMATE", "score": 0.88, "reason": "Synonym of LAST" }
+    ]
+  },
+  "INDIVIDUAL": {
+    "synonyms": [
+      { "word": "PERSON", "score": 0.98, "reason": "Direct synonym of INDIVIDUAL" },
+      { "word": "HUMAN", "score": 0.9, "reason": "Synonym of INDIVIDUAL" },
+      { "word": "BEING", "score": 0.85, "reason": "Synonym of INDIVIDUAL" }
+    ],
+    "antonyms": [
+      { "word": "GROUP", "score": 0.92, "reason": "Antonym of INDIVIDUAL" },
+      { "word": "COLLECTIVE", "score": 0.9, "reason": "Antonym of INDIVIDUAL" }
+    ]
+  },
+  "TREASURE": {
+    "contextual": [
+      { "word": "JUNK", "score": 0.97, "reason": "Proverbial flip: 'One man's trash/junk is another man's treasure'" },
+      { "word": "TRASH", "score": 0.95, "reason": "Proverbial flip with treasure" }
+    ],
+    "antonyms": [
+      { "word": "JUNK", "score": 0.95, "reason": "Value opposite of TREASURE" },
+      { "word": "TRASH", "score": 0.93, "reason": "Value opposite of TREASURE" }
+    ],
+    "synonyms": [
+      { "word": "PRIZE", "score": 0.9, "reason": "Synonym of TREASURE" },
+      { "word": "GOLD", "score": 0.88, "reason": "Associated synonym of TREASURE" }
+    ]
+  },
+  "POST": {
+    "synonyms": [
+      { "word": "MAIL", "score": 0.98, "reason": "Direct synonym of POST (postal delivery/mail)" },
+      { "word": "LETTER", "score": 0.88, "reason": "Item of POST" },
+      { "word": "DISPATCH", "score": 0.85, "reason": "Synonym of POST" }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "gen-01",
+    "clue1": "WARM",
+    "clue2": "CAT",
+    "expectedWord1": "HOT",
+    "expectedWord2": "DOG",
+    "expectedPhrase": "HOT DOG",
+    "category": "culinary / idiom",
+    "sampleConstraints": {
+      "word1": { "length": 3, "startsWith": "H" },
+      "word2": { "length": 3, "startsWith": "D" }
+    }
+  },
+  {
+    "id": "gen-02",
+    "clue1": "FIRE",
+    "clue2": "MILK",
+    "expectedWord1": "ICE",
+    "expectedWord2": "CREAM",
+    "expectedPhrase": "ICE CREAM",
+    "category": "culinary",
+    "sampleConstraints": {
+      "word1": { "length": 3, "startsWith": "I" },
+      "word2": { "length": 5, "startsWith": "C" }
+    }
+  },
+  {
+    "id": "gen-03",
+    "clue1": "LONG",
+    "clue2": "PATH",
+    "expectedWord1": "SHORT",
+    "expectedWord2": "CUT",
+    "expectedPhrase": "SHORT CUT",
+    "category": "idiom",
+    "sampleConstraints": {
+      "word1": { "length": 5, "startsWith": "S" },
+      "word2": { "length": 3, "startsWith": "C" }
+    }
+  },
+  {
+    "id": "gen-04",
+    "clue1": "SOFT",
+    "clue2": "STONE",
+    "expectedWord1": "HARD",
+    "expectedWord2": "ROCK",
+    "expectedPhrase": "HARD ROCK",
+    "category": "music",
+    "sampleConstraints": {
+      "word1": { "length": 4, "startsWith": "H" },
+      "word2": { "length": 4, "startsWith": "R" }
+    }
+  },
+  {
+    "id": "gen-05",
+    "clue1": "BACK",
+    "clue2": "SHEET",
+    "expectedWord1": "FRONT",
+    "expectedWord2": "PAGE",
+    "expectedPhrase": "FRONT PAGE",
+    "category": "journalism",
+    "sampleConstraints": {
+      "word1": { "length": 5, "startsWith": "F" },
+      "word2": { "length": 4, "startsWith": "P" }
+    }
+  },
+  {
+    "id": "gen-06",
+    "clue1": "SHALLOW",
+    "clue2": "OCEAN",
+    "expectedWord1": "DEEP",
+    "expectedWord2": "SEA",
+    "expectedPhrase": "DEEP SEA",
+    "category": "marine",
+    "sampleConstraints": {
+      "word1": { "length": 4, "startsWith": "D" },
+      "word2": { "length": 3, "startsWith": "S" }
+    }
+  },
+  {
+    "id": "gen-07",
+    "clue1": "NIGHT",
+    "clue2": "SLEEP",
+    "expectedWord1": "DAY",
+    "expectedWord2": "DREAM",
+    "expectedPhrase": "DAY DREAM",
+    "category": "psychology",
+    "sampleConstraints": {
+      "word1": { "length": 3, "startsWith": "D" },
+      "word2": { "length": 5, "startsWith": "D" }
+    }
+  },
+  {
+    "id": "gen-08",
+    "clue1": "RED",
+    "clue2": "EARTH",
+    "expectedWord1": "BLUE",
+    "expectedWord2": "SKY",
+    "expectedPhrase": "BLUE SKY",
+    "category": "nature",
+    "sampleConstraints": {
+      "word1": { "length": 4, "startsWith": "B" },
+      "word2": { "length": 3, "startsWith": "S" }
+    }
+  },
+  {
+    "id": "gen-09",
+    "clue1": "RARE",
+    "clue2": "FEELING",
+    "expectedWord1": "COMMON",
+    "expectedWord2": "SENSE",
+    "expectedPhrase": "COMMON SENSE",
+    "category": "idiom",
+    "sampleConstraints": {
+      "word1": { "length": 6, "startsWith": "C" },
+      "word2": { "length": 5, "startsWith": "S" }
+    }
+  },
+  {
+    "id": "gen-10",
+    "clue1": "WET",
+    "clue2": "SOIL",
+    "expectedWord1": "DRY",
+    "expectedWord2": "LAND",
+    "expectedPhrase": "DRY LAND",
+    "category": "geography",
+    "sampleConstraints": {
+      "word1": { "length": 3, "startsWith": "D" },
+      "word2": { "length": 4, "startsWith": "L" }
+    }
+  },
+  {
+    "id": "gen-11",
+    "clue1": "PEACE",
+    "clue2": "BATTLE",
+    "expectedWord1": "WAR",
+    "expectedWord2": "ZONE",
+    "expectedPhrase": "WAR ZONE",
+    "category": "military",
+    "sampleConstraints": {
+      "word1": { "length": 3, "startsWith": "W" },
+      "word2": { "length": 4, "startsWith": "Z" }
+    }
+  },
+  {
+    "id": "gen-12",
+    "clue1": "COLD",
+    "clue2": "FIRE",
+    "expectedWord1": "HOT",
+    "expectedWord2": "WATER",
+    "expectedPhrase": "HOT WATER",
+    "category": "nature / idiom",
+    "sampleConstraints": {
+      "word1": { "length": 3, "startsWith": "H" },
+      "word2": { "length": 5, "startsWith": "W" }
+    }
+  }
+]

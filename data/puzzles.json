@@ -1,0 +1,240 @@
+[
+  {
+    "id": "puzzle-01",
+    "clue1": "SLOW",
+    "clue2": "MEAL",
+    "expectedWord1": "FAST",
+    "expectedWord2": "FOOD",
+    "expectedPhrase": "FAST FOOD",
+    "relationType1": "antonym",
+    "relationType2": "synonym",
+    "sampleConstraints": {
+      "word1": { "length": 4, "startsWith": "F" },
+      "word2": { "length": 4, "startsWith": "F" }
+    }
+  },
+  {
+    "id": "puzzle-02",
+    "clue1": "GRADE",
+    "clue2": "FRIEND",
+    "expectedWord1": "CLASS",
+    "expectedWord2": "MATE",
+    "expectedPhrase": "CLASS MATE",
+    "relationType1": "synonym",
+    "relationType2": "synonym",
+    "sampleConstraints": {
+      "word1": { "length": 5, "startsWith": "C" },
+      "word2": { "length": 4, "startsWith": "M" }
+    }
+  },
+  {
+    "id": "puzzle-03",
+    "clue1": "LOW",
+    "clue2": "WAVE",
+    "expectedWord1": "HIGH",
+    "expectedWord2": "TIDE",
+    "expectedPhrase": "HIGH TIDE",
+    "relationType1": "antonym",
+    "relationType2": "counterpart",
+    "sampleConstraints": {
+      "word1": { "length": 4, "startsWith": "H" },
+      "word2": { "length": 4, "startsWith": "T" }
+    }
+  },
+  {
+    "id": "puzzle-04",
+    "clue1": "PEACE",
+    "clue2": "LAUGH",
+    "expectedWord1": "WAR",
+    "expectedWord2": "CRY",
+    "expectedPhrase": "WAR CRY",
+    "relationType1": "antonym",
+    "relationType2": "counterpart",
+    "sampleConstraints": {
+      "word1": { "length": 3, "startsWith": "W" },
+      "word2": { "length": 3, "startsWith": "C" }
+    }
+  },
+  {
+    "id": "puzzle-05",
+    "clue1": "SILVER",
+    "clue2": "PERIOD",
+    "expectedWord1": "GOLDEN",
+    "expectedWord2": "AGE",
+    "expectedPhrase": "GOLDEN AGE",
+    "relationType1": "counterpart",
+    "relationType2": "synonym",
+    "sampleConstraints": {
+      "word1": { "length": 6, "startsWith": "G" },
+      "word2": { "length": 3, "startsWith": "A" }
+    }
+  },
+  {
+    "id": "puzzle-06",
+    "clue1": "MOON",
+    "clue2": "BEAM",
+    "expectedWord1": "SUN",
+    "expectedWord2": "RAY",
+    "expectedPhrase": "SUN RAY",
+    "relationType1": "counterpart",
+    "relationType2": "synonym",
+    "sampleConstraints": {
+      "word1": { "length": 3, "startsWith": "S" },
+      "word2": { "length": 3, "startsWith": "R" }
+    }
+  },
+  {
+    "id": "puzzle-07",
+    "clue1": "SUN",
+    "clue2": "DARK",
+    "expectedWord1": "MOON",
+    "expectedWord2": "LIGHT",
+    "expectedPhrase": "MOON LIGHT",
+    "relationType1": "counterpart",
+    "relationType2": "antonym",
+    "sampleConstraints": {
+      "word1": { "length": 4, "startsWith": "M" },
+      "word2": { "length": 5, "startsWith": "L" }
+    }
+  },
+  {
+    "id": "puzzle-08",
+    "clue1": "LOW",
+    "clue2": "SET",
+    "expectedWord1": "HIGH",
+    "expectedWord2": "RISE",
+    "expectedPhrase": "HIGH RISE",
+    "relationType1": "antonym",
+    "relationType2": "antonym",
+    "sampleConstraints": {
+      "word1": { "length": 4, "startsWith": "H" },
+      "word2": { "length": 4, "startsWith": "R" }
+    }
+  },
+  {
+    "id": "puzzle-09",
+    "clue1": "NOVEL",
+    "clue2": "CUPBOARD",
+    "expectedWord1": "BOOK",
+    "expectedWord2": "SHELF",
+    "expectedPhrase": "BOOK SHELF",
+    "relationType1": "synonym",
+    "relationType2": "counterpart",
+    "sampleConstraints": {
+      "word1": { "length": 4, "startsWith": "B" },
+      "word2": { "length": 5, "startsWith": "S" }
+    }
+  },
+  {
+    "id": "puzzle-10",
+    "clue1": "TABLE",
+    "clue2": "MAN",
+    "expectedWord1": "CHAIR",
+    "expectedWord2": "PERSON",
+    "expectedPhrase": "CHAIR PERSON",
+    "relationType1": "counterpart",
+    "relationType2": "synonym",
+    "sampleConstraints": {
+      "word1": { "length": 5, "startsWith": "C" },
+      "word2": { "length": 6, "startsWith": "P" }
+    }
+  },
+  {
+    "id": "puzzle-11",
+    "clue1": "BAD",
+    "clue2": "FORTUNE",
+    "expectedWord1": "GOOD",
+    "expectedWord2": "LUCK",
+    "expectedPhrase": "GOOD LUCK",
+    "relationType1": "antonym",
+    "relationType2": "synonym",
+    "sampleConstraints": {
+      "word1": { "length": 4, "startsWith": "G" },
+      "word2": { "length": 4, "startsWith": "L" }
+    }
+  },
+  {
+    "id": "puzzle-12",
+    "clue1": "NEAR",
+    "clue2": "DOWN",
+    "expectedWord1": "CLOSE",
+    "expectedWord2": "UP",
+    "expectedPhrase": "CLOSE UP",
+    "relationType1": "synonym",
+    "relationType2": "antonym",
+    "sampleConstraints": {
+      "word1": { "length": 5, "startsWith": "C" },
+      "word2": { "length": 2, "startsWith": "U" }
+    }
+  },
+  {
+    "id": "puzzle-13",
+    "clue1": "EAR",
+    "clue2": "CAP",
+    "expectedWord1": "EYE",
+    "expectedWord2": "LID",
+    "expectedPhrase": "EYE LID",
+    "relationType1": "counterpart",
+    "relationType2": "counterpart",
+    "sampleConstraints": {
+      "word1": { "length": 3, "startsWith": "E" },
+      "word2": { "length": 3, "startsWith": "L" }
+    }
+  },
+  {
+    "id": "puzzle-14",
+    "clue1": "FULL",
+    "clue2": "PURCHASE",
+    "expectedWord1": "WHOLE",
+    "expectedWord2": "SALE",
+    "expectedPhrase": "WHOLE SALE",
+    "relationType1": "synonym",
+    "relationType2": "counterpart",
+    "sampleConstraints": {
+      "word1": { "length": 5, "startsWith": "W" },
+      "word2": { "length": 4, "startsWith": "S" }
+    }
+  },
+  {
+    "id": "puzzle-15",
+    "clue1": "ANCIENT",
+    "clue2": "CRAFT",
+    "expectedWord1": "MODERN",
+    "expectedWord2": "ART",
+    "expectedPhrase": "MODERN ART",
+    "relationType1": "antonym",
+    "relationType2": "synonym",
+    "sampleConstraints": {
+      "word1": { "length": 6, "startsWith": "M" },
+      "word2": { "length": 3, "startsWith": "A" }
+    }
+  },
+  {
+    "id": "puzzle-16",
+    "clue1": "LAST",
+    "clue2": "INDIVIDUAL",
+    "expectedWord1": "FIRST",
+    "expectedWord2": "PERSON",
+    "expectedPhrase": "FIRST PERSON",
+    "relationType1": "antonym",
+    "relationType2": "synonym",
+    "sampleConstraints": {
+      "word1": { "length": 5, "startsWith": "F" },
+      "word2": { "length": 6, "startsWith": "P" }
+    }
+  },
+  {
+    "id": "puzzle-17",
+    "clue1": "TREASURE",
+    "clue2": "POST",
+    "expectedWord1": "JUNK",
+    "expectedWord2": "MAIL",
+    "expectedPhrase": "JUNK MAIL",
+    "relationType1": "contextual",
+    "relationType2": "synonym",
+    "sampleConstraints": {
+      "word1": { "length": 4, "startsWith": "J" },
+      "word2": { "length": 4, "startsWith": "M" }
+    }
+  }
+]

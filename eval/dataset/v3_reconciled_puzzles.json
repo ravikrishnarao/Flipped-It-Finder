@@ -1,0 +1,92 @@
+[
+  {
+    "id": "v3-01",
+    "tier": "core-8",
+    "clue1": "INVOCATION",
+    "clue2": "RITUAL",
+    "expectedWord1": "PRAYER",
+    "expectedWord2": "CEREMONY",
+    "expectedPhrase": "PRAYER CEREMONY"
+  },
+  {
+    "id": "v3-02",
+    "tier": "core-8",
+    "clue1": "DRY",
+    "clue2": "MOP",
+    "expectedWord1": "CLEAN",
+    "expectedWord2": "SWEEP",
+    "expectedPhrase": "CLEAN SWEEP"
+  },
+  {
+    "id": "v3-03",
+    "tier": "core-8",
+    "clue1": "SYNTHETIC",
+    "clue2": "FROWN",
+    "expectedWord1": "PLASTIC",
+    "expectedWord2": "SMILE",
+    "expectedPhrase": "PLASTIC SMILE"
+  },
+  {
+    "id": "v3-04",
+    "tier": "core-8",
+    "clue1": "WET",
+    "clue2": "VEGETABLES",
+    "expectedWord1": "DRY",
+    "expectedWord2": "FRUITS",
+    "expectedPhrase": "DRY FRUITS"
+  },
+  {
+    "id": "v3-05",
+    "tier": "core-8",
+    "clue1": "ABODE",
+    "clue2": "LEAVING",
+    "expectedWord1": "HOME",
+    "expectedWord2": "COMING",
+    "expectedPhrase": "HOME COMING"
+  },
+  {
+    "id": "v3-06",
+    "tier": "core-8",
+    "clue1": "NEW",
+    "clue2": "CLOTHES",
+    "expectedWord1": "OLD",
+    "expectedWord2": "GARMENTS",
+    "expectedPhrase": "OLD GARMENTS"
+  },
+  {
+    "id": "v3-07",
+    "tier": "core-8",
+    "clue1": "SALT",
+    "clue2": "CRATE",
+    "expectedWord1": "SWEET",
+    "expectedWord2": "BOX",
+    "expectedPhrase": "SWEET BOX"
+  },
+  {
+    "id": "v3-08",
+    "tier": "core-8",
+    "clue1": "ANGEL",
+    "clue2": "QUEEN",
+    "expectedWord1": "DEMON",
+    "expectedWord2": "KING",
+    "expectedPhrase": "DEMON KING"
+  },
+  {
+    "id": "v3-09",
+    "tier": "challenge-2",
+    "clue1": "SHORT",
+    "clue2": "WEEKDAY",
+    "expectedWord1": "LONG",
+    "expectedWord2": "WEEKEND",
+    "expectedPhrase": "LONG WEEKEND"
+  },
+  {
+    "id": "v3-10",
+    "tier": "challenge-2",
+    "clue1": "SHALLOW",
+    "clue2": "SOILING",
+    "expectedWord1": "DEEP",
+    "expectedWord2": "CLEANING",
+    "expectedPhrase": "DEEP CLEANING"
+  }
+]

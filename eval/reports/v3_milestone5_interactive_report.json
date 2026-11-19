@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-11-13T07:33:04.603Z",
+  "config": {
+    "maxPartitions": 64,
+    "maxCacheBytes": 67108864
+  },
+  "memory": {
+    "initial": {
+      "rssMB": 104.2,
+      "heapUsedMB": 13.23,
+      "heapTotalMB": 19.89
+    },
+    "afterFirstSolve": {
+      "rssMB": 198.02,
+      "heapUsedMB": 89.63,
+      "heapTotalMB": 108.75
+    },
+    "afterSecondSolve": {
+      "rssMB": 317.59,
+      "heapUsedMB": 175.17,
+      "heapTotalMB": 210.35
+    },
+    "afterFiveNormalSolves": {
+      "rssMB": 503.42,
+      "heapUsedMB": 374.06,
+      "heapTotalMB": 397.29
+    },
+    "afterThirtyTwoSolves": {
+      "rssMB": 706.24,
+      "heapUsedMB": 372.6,
+      "heapTotalMB": 449.11
+    }
+  },
+  "timingsMs": {
+    "firstColdSolveMs": 796.91,
+    "secondModeSwitchSolveMs": 1700.06,
+    "normalFiveSolvesMs": [
+      260.22,
+      818.52,
+      644.21,
+      448.76,
+      36.34
+    ],
+    "normalFiveAvgMs": 441.61,
+    "warmFiveRepeatsMs": [
+      264.58,
+      673.73,
+      4.48,
+      593.68,
+      36.37
+    ],
+    "warmFiveAvgMs": 314.57,
+    "stressTwentyFiveAvgMs": 802.58
+  },
+  "cacheStatsFinal": {
+    "loadedPartitions": [
+      "assoc_h.json",
+      "collocations_z.json",
+      "phrases_z.json",
+      "collocations_y.json",
+      "phrases_y.json",
+      "wn_m.json",
+      "assoc_m.json",
+      "collocations_q.json",
+      "phrases_q.json",
+      "collocations_v.json",
+      "phrases_v.json",
+      "collocations_h.json",
+      "phrases_h.json",
+      "wn_s.json",
+      "assoc_s.json",
+      "collocations_w.json",
+      "phrases_w.json",
+      "collocations_i.json",
+      "phrases_i.json",
+      "collocations_j.json",
+      "phrases_j.json",
+      "collocations_l.json",
+      "phrases_l.json",
+      "collocations_u.json",
+      "phrases_u.json",
+      "collocations_e.json",
+      "phrases_e.json",
+      "collocations_n.json",
+      "phrases_n.json",
+      "collocations_t.json",
+      "phrases_t.json",
+      "collocations_a.json",
+      "phrases_a.json",
+      "collocations_b.json",
+      "phrases_b.json",
+      "collocations_c.json",
+      "phrases_c.json",
+      "collocations_d.json",
+      "phrases_d.json",
+      "collocations_f.json",
+      "phrases_f.json",
+      "collocations_g.json",
+      "phrases_g.json",
+      "collocations_k.json",
+      "phrases_k.json",
+      "collocations_m.json",
+      "phrases_m.json",
+      "collocations_o.json",
+      "phrases_o.json",
+      "collocations_p.json",
+      "phrases_p.json",
+      "collocations_s.json",
+      "phrases_s.json",
+      "collocations_r.json",
+      "phrases_r.json"
+    ],
+    "partitionCount": 55,
+    "cacheSizeBytes": 64191261,
+    "maxPartitions": 64,
+    "maxCacheBytes": 67108864,
+    "hits": 1291032,
+    "misses": 243,
+    "evictions": 188,
+    "evictedBytes": 503190622
+  }
+}

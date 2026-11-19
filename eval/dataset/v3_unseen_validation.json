@@ -1,0 +1,154 @@
+{
+  "_metadata": {
+    "description": "Milestone 6 genuine unseen-puzzle validation set constructed independently of all frozen V2.2.4 datasets, curated phrase repositories, contextual lexicons, and the frozen 10-puzzle Milestone 3.2/4 reconciled set.",
+    "constructionSource": "Independently authored everyday English compound & idiomatic two-word expressions mapped backward via standard semantic opposites, synonyms, coordinates, hypernyms, adjective satellites, and co-meronyms.",
+    "verificationMethod": "Verified 0% phrase and clue-pair overlap against data/phrases.json, data/moby_phrases.json, data/contextual_associations.json, data/puzzles.json, data/holdout_puzzles.json, data/generalization_eval.json, and eval/dataset/v3_reconciled_puzzles.json.",
+    "contaminationControl": "None of these puzzle answers or specific clue-pair mappings are permitted in runtime resources, compiled exceptions, or CORE_CONTEXTUAL_ASSOCIATIONS."
+  },
+  "puzzles": [
+    {
+      "id": "unseen-01",
+      "clue1": "RURAL",
+      "clue2": "REGION",
+      "expectedWord1": "URBAN",
+      "expectedWord2": "AREA",
+      "expectedPhrase": "URBAN AREA",
+      "category": "antonym + synonym"
+    },
+    {
+      "id": "unseen-02",
+      "clue1": "TAME",
+      "clue2": "EAST",
+      "expectedWord1": "WILD",
+      "expectedWord2": "WEST",
+      "expectedPhrase": "WILD WEST",
+      "category": "antonym + coordinate"
+    },
+    {
+      "id": "unseen-03",
+      "clue1": "FALSE",
+      "clue2": "PASSION",
+      "expectedWord1": "TRUE",
+      "expectedWord2": "LOVE",
+      "expectedPhrase": "TRUE LOVE",
+      "category": "antonym + thesaurus/synonym"
+    },
+    {
+      "id": "unseen-04",
+      "clue1": "BLUNT",
+      "clue2": "AXE",
+      "expectedWord1": "SHARP",
+      "expectedWord2": "KNIFE",
+      "expectedPhrase": "SHARP KNIFE",
+      "category": "adjective satellite antonym + coordinate"
+    },
+    {
+      "id": "unseen-05",
+      "clue1": "PRIVATE",
+      "clue2": "ACADEMY",
+      "expectedWord1": "PUBLIC",
+      "expectedWord2": "SCHOOL",
+      "expectedPhrase": "PUBLIC SCHOOL",
+      "category": "antonym + hypernym"
+    },
+    {
+      "id": "unseen-06",
+      "clue1": "HAPPY",
+      "clue2": "TALE",
+      "expectedWord1": "SAD",
+      "expectedWord2": "STORY",
+      "expectedPhrase": "SAD STORY",
+      "category": "also-see adjective antonym + synonym"
+    },
+    {
+      "id": "unseen-07",
+      "clue1": "NARROW",
+      "clue2": "AVENUE",
+      "expectedWord1": "WIDE",
+      "expectedWord2": "STREET",
+      "expectedPhrase": "WIDE STREET",
+      "category": "antonym + coordinate (compositional)"
+    },
+    {
+      "id": "unseen-08",
+      "clue1": "STRONG",
+      "clue2": "PLACE",
+      "expectedWord1": "WEAK",
+      "expectedWord2": "SPOT",
+      "expectedPhrase": "WEAK SPOT",
+      "category": "antonym + synonym"
+    },
+    {
+      "id": "unseen-09",
+      "clue1": "DARK",
+      "clue2": "DWELLING",
+      "expectedWord1": "LIGHT",
+      "expectedWord2": "HOUSE",
+      "expectedPhrase": "LIGHT HOUSE",
+      "category": "antonym + coordinate"
+    },
+    {
+      "id": "unseen-10",
+      "clue1": "EARLY",
+      "clue2": "DAY",
+      "expectedWord1": "LATE",
+      "expectedWord2": "NIGHT",
+      "expectedPhrase": "LATE NIGHT",
+      "category": "antonym + antonym (compositional)"
+    },
+    {
+      "id": "unseen-11",
+      "clue1": "SOUR",
+      "clue2": "LIVER",
+      "expectedWord1": "SWEET",
+      "expectedWord2": "HEART",
+      "expectedPhrase": "SWEET HEART",
+      "category": "antonym + organ coordinate"
+    },
+    {
+      "id": "unseen-12",
+      "clue1": "CHEAP",
+      "clue2": "VOYAGE",
+      "expectedWord1": "FREE",
+      "expectedWord2": "RIDE",
+      "expectedPhrase": "FREE RIDE",
+      "category": "synonym + coordinate"
+    },
+    {
+      "id": "unseen-13",
+      "clue1": "LOOSE",
+      "clue2": "CORD",
+      "expectedWord1": "TIGHT",
+      "expectedWord2": "ROPE",
+      "expectedPhrase": "TIGHT ROPE",
+      "category": "antonym + coordinate/hypernym"
+    },
+    {
+      "id": "unseen-14",
+      "clue1": "CLOSED",
+      "clue2": "MYSTERY",
+      "expectedWord1": "OPEN",
+      "expectedWord2": "SECRET",
+      "expectedPhrase": "OPEN SECRET",
+      "category": "antonym + synonym"
+    },
+    {
+      "id": "unseen-15",
+      "clue1": "DEAD",
+      "clue2": "CABLE",
+      "expectedWord1": "LIVE",
+      "expectedWord2": "WIRE",
+      "expectedPhrase": "LIVE WIRE",
+      "category": "antonym + hypernym/synonym"
+    },
+    {
+      "id": "unseen-16",
+      "clue1": "EVENING",
+      "clue2": "MOON",
+      "expectedWord1": "MORNING",
+      "expectedWord2": "STAR",
+      "expectedPhrase": "MORNING STAR",
+      "category": "co-meronym + celestial coordinate"
+    }
+  ]
+}

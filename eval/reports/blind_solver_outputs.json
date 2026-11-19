@@ -1,0 +1,2204 @@
+[
+  {
+    "id": "eval-01",
+    "date": "2026-11-10",
+    "clue1": "Synthetic",
+    "clue2": "Frown",
+    "solveResult": {
+      "clue1": "SYNTHETIC",
+      "clue2": "FROWN",
+      "candidates": [],
+      "bestMatch": null,
+      "solveTimeMs": 1.28,
+      "totalCombinationsEvaluated": 0,
+      "diagnostic": {
+        "clue1": {
+          "clue": "SYNTHETIC",
+          "rawCount": 0,
+          "rawTransformations": [],
+          "survivingCount": 0,
+          "survivingTransformations": [],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "clue2": {
+          "clue": "FROWN",
+          "rawCount": 4,
+          "rawTransformations": [
+            {
+              "originalClue": "FROWN",
+              "word": "LAUGH",
+              "relationType": "antonym",
+              "score": 0.84,
+              "reason": "Reciprocal antonym of LAUGH"
+            },
+            {
+              "originalClue": "FROWN",
+              "word": "LAUGHS",
+              "relationType": "morphological",
+              "score": 0.79,
+              "reason": "Morphological variation of LAUGH (antonym of FROWN)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "FROWN",
+              "word": "LAUGHING",
+              "relationType": "morphological",
+              "score": 0.79,
+              "reason": "Morphological variation of LAUGH (antonym of FROWN)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "FROWN",
+              "word": "LAUGHED",
+              "relationType": "morphological",
+              "score": 0.79,
+              "reason": "Morphological variation of LAUGH (antonym of FROWN)",
+              "source": "morphology"
+            }
+          ],
+          "survivingCount": 4,
+          "survivingTransformations": [
+            {
+              "originalClue": "FROWN",
+              "word": "LAUGH",
+              "relationType": "antonym",
+              "score": 0.84,
+              "reason": "Reciprocal antonym of LAUGH"
+            },
+            {
+              "originalClue": "FROWN",
+              "word": "LAUGHS",
+              "relationType": "morphological",
+              "score": 0.79,
+              "reason": "Morphological variation of LAUGH (antonym of FROWN)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "FROWN",
+              "word": "LAUGHING",
+              "relationType": "morphological",
+              "score": 0.79,
+              "reason": "Morphological variation of LAUGH (antonym of FROWN)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "FROWN",
+              "word": "LAUGHED",
+              "relationType": "morphological",
+              "score": 0.79,
+              "reason": "Morphological variation of LAUGH (antonym of FROWN)",
+              "source": "morphology"
+            }
+          ],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "totalCombinationsGenerated": 0,
+        "totalCombinationsEvaluated": 0,
+        "phraseMatchesCount": 0,
+        "rankedCandidatesCount": 0,
+        "failureReason": "NO_CLUE1_TRANSFORMATIONS",
+        "failureDescription": "No transformations found in any relationship provider for Clue 1 \"SYNTHETIC\"."
+      }
+    }
+  },
+  {
+    "id": "eval-02",
+    "date": "2026-11-10",
+    "clue1": "Wet",
+    "clue2": "Vegetables",
+    "solveResult": {
+      "clue1": "WET",
+      "clue2": "VEGETABLES",
+      "candidates": [],
+      "bestMatch": null,
+      "solveTimeMs": 0.54,
+      "totalCombinationsEvaluated": 0,
+      "diagnostic": {
+        "clue1": {
+          "clue": "WET",
+          "rawCount": 12,
+          "rawTransformations": [
+            {
+              "originalClue": "WET",
+              "word": "DRY",
+              "relationType": "antonym",
+              "score": 0.99,
+              "reason": "WordNet direct moisture antonym of WET"
+            },
+            {
+              "originalClue": "WET",
+              "word": "DAMP",
+              "relationType": "synonym",
+              "score": 0.92,
+              "reason": "WordNet synset: slightly wet"
+            },
+            {
+              "originalClue": "WET",
+              "word": "MOIST",
+              "relationType": "synonym",
+              "score": 0.9,
+              "reason": "WordNet synset: humid"
+            },
+            {
+              "originalClue": "WET",
+              "word": "DRIES",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of DRY (antonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "DRYING",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of DRY (antonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "DRIED",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of DRY (antonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "DAMPS",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of DAMP (synonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "DAMPING",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of DAMP (synonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "DAMPED",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of DAMP (synonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "MOISTS",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of MOIST (synonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "MOISTING",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of MOIST (synonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "MOISTED",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of MOIST (synonym of WET)",
+              "source": "morphology"
+            }
+          ],
+          "survivingCount": 12,
+          "survivingTransformations": [
+            {
+              "originalClue": "WET",
+              "word": "DRY",
+              "relationType": "antonym",
+              "score": 0.99,
+              "reason": "WordNet direct moisture antonym of WET"
+            },
+            {
+              "originalClue": "WET",
+              "word": "DAMP",
+              "relationType": "synonym",
+              "score": 0.92,
+              "reason": "WordNet synset: slightly wet"
+            },
+            {
+              "originalClue": "WET",
+              "word": "MOIST",
+              "relationType": "synonym",
+              "score": 0.9,
+              "reason": "WordNet synset: humid"
+            },
+            {
+              "originalClue": "WET",
+              "word": "DRIES",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of DRY (antonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "DRYING",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of DRY (antonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "DRIED",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of DRY (antonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "DAMPS",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of DAMP (synonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "DAMPING",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of DAMP (synonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "DAMPED",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of DAMP (synonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "MOISTS",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of MOIST (synonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "MOISTING",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of MOIST (synonym of WET)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WET",
+              "word": "MOISTED",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of MOIST (synonym of WET)",
+              "source": "morphology"
+            }
+          ],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "clue2": {
+          "clue": "VEGETABLES",
+          "rawCount": 0,
+          "rawTransformations": [],
+          "survivingCount": 0,
+          "survivingTransformations": [],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "totalCombinationsGenerated": 0,
+        "totalCombinationsEvaluated": 0,
+        "phraseMatchesCount": 0,
+        "rankedCandidatesCount": 0,
+        "failureReason": "NO_CLUE2_TRANSFORMATIONS",
+        "failureDescription": "No transformations found in any relationship provider for Clue 2 \"VEGETABLES\"."
+      }
+    }
+  },
+  {
+    "id": "eval-03",
+    "date": "2026-11-10",
+    "clue1": "Abode",
+    "clue2": "Leaving",
+    "solveResult": {
+      "clue1": "ABODE",
+      "clue2": "LEAVING",
+      "candidates": [],
+      "bestMatch": null,
+      "solveTimeMs": 0.04,
+      "totalCombinationsEvaluated": 0,
+      "diagnostic": {
+        "clue1": {
+          "clue": "ABODE",
+          "rawCount": 0,
+          "rawTransformations": [],
+          "survivingCount": 0,
+          "survivingTransformations": [],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "clue2": {
+          "clue": "LEAVING",
+          "rawCount": 0,
+          "rawTransformations": [],
+          "survivingCount": 0,
+          "survivingTransformations": [],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "totalCombinationsGenerated": 0,
+        "totalCombinationsEvaluated": 0,
+        "phraseMatchesCount": 0,
+        "rankedCandidatesCount": 0,
+        "failureReason": "NO_CLUE1_TRANSFORMATIONS",
+        "failureDescription": "No transformations found in any relationship provider for Clue 1 \"ABODE\"."
+      }
+    }
+  },
+  {
+    "id": "eval-04",
+    "date": "2026-11-10",
+    "clue1": "New",
+    "clue2": "Clothes",
+    "solveResult": {
+      "clue1": "NEW",
+      "clue2": "CLOTHES",
+      "candidates": [],
+      "bestMatch": null,
+      "solveTimeMs": 0.41,
+      "totalCombinationsEvaluated": 0,
+      "diagnostic": {
+        "clue1": {
+          "clue": "NEW",
+          "rawCount": 20,
+          "rawTransformations": [
+            {
+              "originalClue": "NEW",
+              "word": "OLD",
+              "relationType": "antonym",
+              "score": 0.99,
+              "reason": "WordNet direct age/recency antonym of NEW"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "ANCIENT",
+              "relationType": "antonym",
+              "score": 0.94,
+              "reason": "WordNet age antonym"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "RECENT",
+              "relationType": "synonym",
+              "score": 0.94,
+              "reason": "WordNet synset: of late origin"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "FRESH",
+              "relationType": "synonym",
+              "score": 0.92,
+              "reason": "WordNet synset: novel"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "MODERN",
+              "relationType": "synonym",
+              "score": 0.9,
+              "reason": "WordNet synset"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "OLDS",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of OLD (antonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "OLDING",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of OLD (antonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "OLDED",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of OLD (antonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "ANCIENTS",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of ANCIENT (antonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "ANCIENTING",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of ANCIENT (antonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "ANCIENTED",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of ANCIENT (antonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "RECENTS",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of RECENT (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "RECENTING",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of RECENT (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "RECENTED",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of RECENT (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "FRESHES",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of FRESH (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "FRESHING",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of FRESH (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "FRESHED",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of FRESH (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "MODERNS",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of MODERN (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "MODERNING",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of MODERN (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "MODERNED",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of MODERN (synonym of NEW)",
+              "source": "morphology"
+            }
+          ],
+          "survivingCount": 20,
+          "survivingTransformations": [
+            {
+              "originalClue": "NEW",
+              "word": "OLD",
+              "relationType": "antonym",
+              "score": 0.99,
+              "reason": "WordNet direct age/recency antonym of NEW"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "ANCIENT",
+              "relationType": "antonym",
+              "score": 0.94,
+              "reason": "WordNet age antonym"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "RECENT",
+              "relationType": "synonym",
+              "score": 0.94,
+              "reason": "WordNet synset: of late origin"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "FRESH",
+              "relationType": "synonym",
+              "score": 0.92,
+              "reason": "WordNet synset: novel"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "MODERN",
+              "relationType": "synonym",
+              "score": 0.9,
+              "reason": "WordNet synset"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "OLDS",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of OLD (antonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "OLDING",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of OLD (antonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "OLDED",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of OLD (antonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "ANCIENTS",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of ANCIENT (antonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "ANCIENTING",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of ANCIENT (antonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "ANCIENTED",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of ANCIENT (antonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "RECENTS",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of RECENT (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "RECENTING",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of RECENT (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "RECENTED",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of RECENT (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "FRESHES",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of FRESH (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "FRESHING",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of FRESH (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "FRESHED",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of FRESH (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "MODERNS",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of MODERN (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "MODERNING",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of MODERN (synonym of NEW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "NEW",
+              "word": "MODERNED",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of MODERN (synonym of NEW)",
+              "source": "morphology"
+            }
+          ],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "clue2": {
+          "clue": "CLOTHES",
+          "rawCount": 0,
+          "rawTransformations": [],
+          "survivingCount": 0,
+          "survivingTransformations": [],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "totalCombinationsGenerated": 0,
+        "totalCombinationsEvaluated": 0,
+        "phraseMatchesCount": 0,
+        "rankedCandidatesCount": 0,
+        "failureReason": "NO_CLUE2_TRANSFORMATIONS",
+        "failureDescription": "No transformations found in any relationship provider for Clue 2 \"CLOTHES\"."
+      }
+    }
+  },
+  {
+    "id": "eval-05",
+    "date": "2026-11-10",
+    "clue1": "Salt",
+    "clue2": "Crate",
+    "solveResult": {
+      "clue1": "SALT",
+      "clue2": "CRATE",
+      "candidates": [],
+      "bestMatch": null,
+      "solveTimeMs": 0.07,
+      "totalCombinationsEvaluated": 0,
+      "diagnostic": {
+        "clue1": {
+          "clue": "SALT",
+          "rawCount": 0,
+          "rawTransformations": [],
+          "survivingCount": 0,
+          "survivingTransformations": [],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "clue2": {
+          "clue": "CRATE",
+          "rawCount": 0,
+          "rawTransformations": [],
+          "survivingCount": 0,
+          "survivingTransformations": [],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "totalCombinationsGenerated": 0,
+        "totalCombinationsEvaluated": 0,
+        "phraseMatchesCount": 0,
+        "rankedCandidatesCount": 0,
+        "failureReason": "NO_CLUE1_TRANSFORMATIONS",
+        "failureDescription": "No transformations found in any relationship provider for Clue 1 \"SALT\"."
+      }
+    }
+  },
+  {
+    "id": "eval-06",
+    "date": "2026-11-10",
+    "clue1": "Angel",
+    "clue2": "Queen",
+    "solveResult": {
+      "clue1": "ANGEL",
+      "clue2": "QUEEN",
+      "candidates": [],
+      "bestMatch": null,
+      "solveTimeMs": 0.17,
+      "totalCombinationsEvaluated": 0,
+      "diagnostic": {
+        "clue1": {
+          "clue": "ANGEL",
+          "rawCount": 0,
+          "rawTransformations": [],
+          "survivingCount": 0,
+          "survivingTransformations": [],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "clue2": {
+          "clue": "QUEEN",
+          "rawCount": 0,
+          "rawTransformations": [],
+          "survivingCount": 0,
+          "survivingTransformations": [],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "totalCombinationsGenerated": 0,
+        "totalCombinationsEvaluated": 0,
+        "phraseMatchesCount": 0,
+        "rankedCandidatesCount": 0,
+        "failureReason": "NO_CLUE1_TRANSFORMATIONS",
+        "failureDescription": "No transformations found in any relationship provider for Clue 1 \"ANGEL\"."
+      }
+    }
+  },
+  {
+    "id": "eval-07",
+    "date": "2026-11-10",
+    "clue1": "Short",
+    "clue2": "Weekday",
+    "solveResult": {
+      "clue1": "SHORT",
+      "clue2": "WEEKDAY",
+      "candidates": [],
+      "bestMatch": null,
+      "solveTimeMs": 0.17,
+      "totalCombinationsEvaluated": 0,
+      "diagnostic": {
+        "clue1": {
+          "clue": "SHORT",
+          "rawCount": 20,
+          "rawTransformations": [
+            {
+              "originalClue": "SHORT",
+              "word": "LONG",
+              "relationType": "antonym",
+              "score": 0.99,
+              "reason": "WordNet direct antonym of SHORT"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "TALL",
+              "relationType": "antonym",
+              "score": 0.95,
+              "reason": "WordNet vertical dimension antonym"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "BRIEF",
+              "relationType": "synonym",
+              "score": 0.94,
+              "reason": "WordNet synset: concise duration"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "LITTLE",
+              "relationType": "synonym",
+              "score": 0.88,
+              "reason": "WordNet synset: small height"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "HIGH",
+              "relationType": "antonym",
+              "score": 0.86,
+              "reason": "WordNet reciprocal antonym of HIGH"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "LONGS",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of LONG (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "LONGING",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of LONG (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "LONGED",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of LONG (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "TALLS",
+              "relationType": "morphological",
+              "score": 0.89,
+              "reason": "Morphological variation of TALL (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "TALLING",
+              "relationType": "morphological",
+              "score": 0.89,
+              "reason": "Morphological variation of TALL (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "TALLED",
+              "relationType": "morphological",
+              "score": 0.89,
+              "reason": "Morphological variation of TALL (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "BRIEFS",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of BRIEF (synonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "BRIEFING",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of BRIEF (synonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "BRIEFED",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of BRIEF (synonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "LITTLES",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of LITTLE (synonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "LITTLING",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of LITTLE (synonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "LITTLED",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of LITTLE (synonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "HIGHS",
+              "relationType": "morphological",
+              "score": 0.81,
+              "reason": "Morphological variation of HIGH (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "HIGHING",
+              "relationType": "morphological",
+              "score": 0.81,
+              "reason": "Morphological variation of HIGH (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "HIGHED",
+              "relationType": "morphological",
+              "score": 0.81,
+              "reason": "Morphological variation of HIGH (antonym of SHORT)",
+              "source": "morphology"
+            }
+          ],
+          "survivingCount": 20,
+          "survivingTransformations": [
+            {
+              "originalClue": "SHORT",
+              "word": "LONG",
+              "relationType": "antonym",
+              "score": 0.99,
+              "reason": "WordNet direct antonym of SHORT"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "TALL",
+              "relationType": "antonym",
+              "score": 0.95,
+              "reason": "WordNet vertical dimension antonym"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "BRIEF",
+              "relationType": "synonym",
+              "score": 0.94,
+              "reason": "WordNet synset: concise duration"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "LITTLE",
+              "relationType": "synonym",
+              "score": 0.88,
+              "reason": "WordNet synset: small height"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "HIGH",
+              "relationType": "antonym",
+              "score": 0.86,
+              "reason": "WordNet reciprocal antonym of HIGH"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "LONGS",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of LONG (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "LONGING",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of LONG (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "LONGED",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of LONG (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "TALLS",
+              "relationType": "morphological",
+              "score": 0.89,
+              "reason": "Morphological variation of TALL (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "TALLING",
+              "relationType": "morphological",
+              "score": 0.89,
+              "reason": "Morphological variation of TALL (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "TALLED",
+              "relationType": "morphological",
+              "score": 0.89,
+              "reason": "Morphological variation of TALL (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "BRIEFS",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of BRIEF (synonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "BRIEFING",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of BRIEF (synonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "BRIEFED",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of BRIEF (synonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "LITTLES",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of LITTLE (synonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "LITTLING",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of LITTLE (synonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "LITTLED",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of LITTLE (synonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "HIGHS",
+              "relationType": "morphological",
+              "score": 0.81,
+              "reason": "Morphological variation of HIGH (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "HIGHING",
+              "relationType": "morphological",
+              "score": 0.81,
+              "reason": "Morphological variation of HIGH (antonym of SHORT)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHORT",
+              "word": "HIGHED",
+              "relationType": "morphological",
+              "score": 0.81,
+              "reason": "Morphological variation of HIGH (antonym of SHORT)",
+              "source": "morphology"
+            }
+          ],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "clue2": {
+          "clue": "WEEKDAY",
+          "rawCount": 0,
+          "rawTransformations": [],
+          "survivingCount": 0,
+          "survivingTransformations": [],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "totalCombinationsGenerated": 0,
+        "totalCombinationsEvaluated": 0,
+        "phraseMatchesCount": 0,
+        "rankedCandidatesCount": 0,
+        "failureReason": "NO_CLUE2_TRANSFORMATIONS",
+        "failureDescription": "No transformations found in any relationship provider for Clue 2 \"WEEKDAY\"."
+      }
+    }
+  },
+  {
+    "id": "eval-08",
+    "date": "2026-11-10",
+    "clue1": "Shallow",
+    "clue2": "Soiling",
+    "solveResult": {
+      "clue1": "SHALLOW",
+      "clue2": "SOILING",
+      "candidates": [],
+      "bestMatch": null,
+      "solveTimeMs": 3.94,
+      "totalCombinationsEvaluated": 144,
+      "diagnostic": {
+        "clue1": {
+          "clue": "SHALLOW",
+          "rawCount": 12,
+          "rawTransformations": [
+            {
+              "originalClue": "SHALLOW",
+              "word": "DEEP",
+              "relationType": "antonym",
+              "score": 0.99,
+              "reason": "WordNet direct depth antonym of SHALLOW"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "PROFOUND",
+              "relationType": "antonym",
+              "score": 0.9,
+              "reason": "WordNet figurative antonym of SHALLOW"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "SUPERFICIAL",
+              "relationType": "synonym",
+              "score": 0.9,
+              "reason": "WordNet synset: not deep"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "DEEPS",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of DEEP (antonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "DEEPING",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of DEEP (antonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "DEEPED",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of DEEP (antonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "PROFOUNDS",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of PROFOUND (antonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "PROFOUNDING",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of PROFOUND (antonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "PROFOUNDED",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of PROFOUND (antonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "SUPERFICIALS",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of SUPERFICIAL (synonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "SUPERFICIALING",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of SUPERFICIAL (synonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "SUPERFICIALED",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of SUPERFICIAL (synonym of SHALLOW)",
+              "source": "morphology"
+            }
+          ],
+          "survivingCount": 12,
+          "survivingTransformations": [
+            {
+              "originalClue": "SHALLOW",
+              "word": "DEEP",
+              "relationType": "antonym",
+              "score": 0.99,
+              "reason": "WordNet direct depth antonym of SHALLOW"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "PROFOUND",
+              "relationType": "antonym",
+              "score": 0.9,
+              "reason": "WordNet figurative antonym of SHALLOW"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "SUPERFICIAL",
+              "relationType": "synonym",
+              "score": 0.9,
+              "reason": "WordNet synset: not deep"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "DEEPS",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of DEEP (antonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "DEEPING",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of DEEP (antonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "DEEPED",
+              "relationType": "morphological",
+              "score": 0.93,
+              "reason": "Morphological variation of DEEP (antonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "PROFOUNDS",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of PROFOUND (antonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "PROFOUNDING",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of PROFOUND (antonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "PROFOUNDED",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of PROFOUND (antonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "SUPERFICIALS",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of SUPERFICIAL (synonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "SUPERFICIALING",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of SUPERFICIAL (synonym of SHALLOW)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SHALLOW",
+              "word": "SUPERFICIALED",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of SUPERFICIAL (synonym of SHALLOW)",
+              "source": "morphology"
+            }
+          ],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "clue2": {
+          "clue": "SOILING",
+          "rawCount": 12,
+          "rawTransformations": [
+            {
+              "originalClue": "SOILING",
+              "word": "LAND",
+              "relationType": "synonym",
+              "score": 0.96,
+              "reason": "WordNet synset: territory / ground"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "EARTH",
+              "relationType": "synonym",
+              "score": 0.94,
+              "reason": "WordNet synset: terrestrial matter"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "DIRT",
+              "relationType": "synonym",
+              "score": 0.9,
+              "reason": "WordNet synset: surface soil"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "LANDS",
+              "relationType": "morphological",
+              "score": 0.9,
+              "reason": "Morphological variation of LAND (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "LANDING",
+              "relationType": "morphological",
+              "score": 0.9,
+              "reason": "Morphological variation of LAND (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "LANDED",
+              "relationType": "morphological",
+              "score": 0.9,
+              "reason": "Morphological variation of LAND (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "EARTHS",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of EARTH (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "EARTHING",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of EARTH (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "EARTHED",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of EARTH (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "DIRTS",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of DIRT (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "DIRTING",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of DIRT (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "DIRTED",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of DIRT (synonym of SOILING)",
+              "source": "morphology"
+            }
+          ],
+          "survivingCount": 12,
+          "survivingTransformations": [
+            {
+              "originalClue": "SOILING",
+              "word": "LAND",
+              "relationType": "synonym",
+              "score": 0.96,
+              "reason": "WordNet synset: territory / ground"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "EARTH",
+              "relationType": "synonym",
+              "score": 0.94,
+              "reason": "WordNet synset: terrestrial matter"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "DIRT",
+              "relationType": "synonym",
+              "score": 0.9,
+              "reason": "WordNet synset: surface soil"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "LANDS",
+              "relationType": "morphological",
+              "score": 0.9,
+              "reason": "Morphological variation of LAND (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "LANDING",
+              "relationType": "morphological",
+              "score": 0.9,
+              "reason": "Morphological variation of LAND (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "LANDED",
+              "relationType": "morphological",
+              "score": 0.9,
+              "reason": "Morphological variation of LAND (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "EARTHS",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of EARTH (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "EARTHING",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of EARTH (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "EARTHED",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of EARTH (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "DIRTS",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of DIRT (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "DIRTING",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of DIRT (synonym of SOILING)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "SOILING",
+              "word": "DIRTED",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of DIRT (synonym of SOILING)",
+              "source": "morphology"
+            }
+          ],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "totalCombinationsGenerated": 144,
+        "totalCombinationsEvaluated": 144,
+        "phraseMatchesCount": 0,
+        "rankedCandidatesCount": 0,
+        "failureReason": "NO_RECOGNIZED_PHRASES",
+        "failureDescription": "Evaluated 144 candidate pairs (12 × 12); none formed a recognized phrase or compound in the phrase database."
+      }
+    }
+  },
+  {
+    "id": "eval-09",
+    "date": "2026-11-10",
+    "clue1": "Water",
+    "clue2": "Rest",
+    "solveResult": {
+      "clue1": "WATER",
+      "clue2": "REST",
+      "candidates": [
+        {
+          "targetPhrase": "FIRE WORKS",
+          "word1": "FIRE",
+          "word2": "WORK",
+          "relation1": {
+            "originalClue": "WATER",
+            "word": "FIRE",
+            "relationType": "counterpart",
+            "score": 0.95,
+            "reason": "WordNet coordinate relationship: elemental opposite pair (fire and water)"
+          },
+          "relation2": {
+            "originalClue": "REST",
+            "word": "WORK",
+            "relationType": "antonym",
+            "score": 0.98,
+            "reason": "WordNet direct antonym of REST"
+          },
+          "phraseScore": 1,
+          "matchScore": 0.976,
+          "confidence": 0.976,
+          "explanation": "\"WATER\" flips to \"FIRE\" (counterpart via WordNet 3.0: coordinate relationship: elemental opposite pair (fire and water)) and \"REST\" flips to \"WORK\" (antonym via WordNet 3.0: direct antonym of REST), together forming the phrase \"FIRE WORKS\".",
+          "matchesConstraints": true,
+          "category": "pyrotechnics / celebrations"
+        }
+      ],
+      "bestMatch": {
+        "targetPhrase": "FIRE WORKS",
+        "word1": "FIRE",
+        "word2": "WORK",
+        "relation1": {
+          "originalClue": "WATER",
+          "word": "FIRE",
+          "relationType": "counterpart",
+          "score": 0.95,
+          "reason": "WordNet coordinate relationship: elemental opposite pair (fire and water)"
+        },
+        "relation2": {
+          "originalClue": "REST",
+          "word": "WORK",
+          "relationType": "antonym",
+          "score": 0.98,
+          "reason": "WordNet direct antonym of REST"
+        },
+        "phraseScore": 1,
+        "matchScore": 0.976,
+        "confidence": 0.976,
+        "explanation": "\"WATER\" flips to \"FIRE\" (counterpart via WordNet 3.0: coordinate relationship: elemental opposite pair (fire and water)) and \"REST\" flips to \"WORK\" (antonym via WordNet 3.0: direct antonym of REST), together forming the phrase \"FIRE WORKS\".",
+        "matchesConstraints": true,
+        "category": "pyrotechnics / celebrations"
+      },
+      "solveTimeMs": 20.12,
+      "totalCombinationsEvaluated": 264,
+      "diagnostic": {
+        "clue1": {
+          "clue": "WATER",
+          "rawCount": 11,
+          "rawTransformations": [
+            {
+              "originalClue": "WATER",
+              "word": "FIRE",
+              "relationType": "counterpart",
+              "score": 0.95,
+              "reason": "WordNet coordinate relationship: elemental opposite pair (fire and water)"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "LAND",
+              "relationType": "counterpart",
+              "score": 0.94,
+              "reason": "WordNet coordinate relationship: geographical coordinate"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "FALL",
+              "relationType": "associated",
+              "score": 0.92,
+              "reason": "Project-curated contextual association: waterfall"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "LIQUID",
+              "relationType": "hierarchical",
+              "score": 0.9,
+              "reason": "WordNet hypernym: fluid state"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "ICE",
+              "relationType": "associated",
+              "score": 0.9,
+              "reason": "WordNet coordinate relationship: solid phase"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "FIRES",
+              "relationType": "morphological",
+              "score": 0.89,
+              "reason": "Morphological variation of FIRE (counterpart of WATER)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "FIRING",
+              "relationType": "morphological",
+              "score": 0.89,
+              "reason": "Morphological variation of FIRE (counterpart of WATER)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "FIRED",
+              "relationType": "morphological",
+              "score": 0.89,
+              "reason": "Morphological variation of FIRE (counterpart of WATER)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "LANDS",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of LAND (counterpart of WATER)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "LANDING",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of LAND (counterpart of WATER)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "LANDED",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of LAND (counterpart of WATER)",
+              "source": "morphology"
+            }
+          ],
+          "survivingCount": 11,
+          "survivingTransformations": [
+            {
+              "originalClue": "WATER",
+              "word": "FIRE",
+              "relationType": "counterpart",
+              "score": 0.95,
+              "reason": "WordNet coordinate relationship: elemental opposite pair (fire and water)"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "LAND",
+              "relationType": "counterpart",
+              "score": 0.94,
+              "reason": "WordNet coordinate relationship: geographical coordinate"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "FALL",
+              "relationType": "associated",
+              "score": 0.92,
+              "reason": "Project-curated contextual association: waterfall"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "LIQUID",
+              "relationType": "hierarchical",
+              "score": 0.9,
+              "reason": "WordNet hypernym: fluid state"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "ICE",
+              "relationType": "associated",
+              "score": 0.9,
+              "reason": "WordNet coordinate relationship: solid phase"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "FIRES",
+              "relationType": "morphological",
+              "score": 0.89,
+              "reason": "Morphological variation of FIRE (counterpart of WATER)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "FIRING",
+              "relationType": "morphological",
+              "score": 0.89,
+              "reason": "Morphological variation of FIRE (counterpart of WATER)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "FIRED",
+              "relationType": "morphological",
+              "score": 0.89,
+              "reason": "Morphological variation of FIRE (counterpart of WATER)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "LANDS",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of LAND (counterpart of WATER)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "LANDING",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of LAND (counterpart of WATER)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "WATER",
+              "word": "LANDED",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of LAND (counterpart of WATER)",
+              "source": "morphology"
+            }
+          ],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "clue2": {
+          "clue": "REST",
+          "rawCount": 24,
+          "rawTransformations": [
+            {
+              "originalClue": "REST",
+              "word": "WORK",
+              "relationType": "antonym",
+              "score": 0.98,
+              "reason": "WordNet direct antonym of REST"
+            },
+            {
+              "originalClue": "REST",
+              "word": "REPOSE",
+              "relationType": "synonym",
+              "score": 0.94,
+              "reason": "WordNet synset: state of resting"
+            },
+            {
+              "originalClue": "REST",
+              "word": "RELAXATION",
+              "relationType": "synonym",
+              "score": 0.92,
+              "reason": "WordNet synset: leisure or rest"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EXERTION",
+              "relationType": "antonym",
+              "score": 0.9,
+              "reason": "WordNet antonym of REST"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EASE",
+              "relationType": "synonym",
+              "score": 0.88,
+              "reason": "WordNet synset: freedom from activity"
+            },
+            {
+              "originalClue": "REST",
+              "word": "SLEEP",
+              "relationType": "synonym",
+              "score": 0.88,
+              "reason": "WordNet hyponym synset"
+            },
+            {
+              "originalClue": "REST",
+              "word": "WORKS",
+              "relationType": "morphological",
+              "score": 0.92,
+              "reason": "Morphological variation of WORK (antonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "WORKING",
+              "relationType": "morphological",
+              "score": 0.92,
+              "reason": "Morphological variation of WORK (antonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "WORKED",
+              "relationType": "morphological",
+              "score": 0.92,
+              "reason": "Morphological variation of WORK (antonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "REPOSES",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of REPOSE (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "REPOSING",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of REPOSE (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "REPOSED",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of REPOSE (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "RELAXATIONS",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of RELAXATION (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "RELAXATIONING",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of RELAXATION (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "RELAXATIONED",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of RELAXATION (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EXERTIONS",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of EXERTION (antonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EXERTIONING",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of EXERTION (antonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EXERTIONED",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of EXERTION (antonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EASES",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of EASE (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EASING",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of EASE (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EASED",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of EASE (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "SLEEPS",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of SLEEP (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "SLEEPING",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of SLEEP (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "SLEEPED",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of SLEEP (synonym of REST)",
+              "source": "morphology"
+            }
+          ],
+          "survivingCount": 24,
+          "survivingTransformations": [
+            {
+              "originalClue": "REST",
+              "word": "WORK",
+              "relationType": "antonym",
+              "score": 0.98,
+              "reason": "WordNet direct antonym of REST"
+            },
+            {
+              "originalClue": "REST",
+              "word": "REPOSE",
+              "relationType": "synonym",
+              "score": 0.94,
+              "reason": "WordNet synset: state of resting"
+            },
+            {
+              "originalClue": "REST",
+              "word": "RELAXATION",
+              "relationType": "synonym",
+              "score": 0.92,
+              "reason": "WordNet synset: leisure or rest"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EXERTION",
+              "relationType": "antonym",
+              "score": 0.9,
+              "reason": "WordNet antonym of REST"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EASE",
+              "relationType": "synonym",
+              "score": 0.88,
+              "reason": "WordNet synset: freedom from activity"
+            },
+            {
+              "originalClue": "REST",
+              "word": "SLEEP",
+              "relationType": "synonym",
+              "score": 0.88,
+              "reason": "WordNet hyponym synset"
+            },
+            {
+              "originalClue": "REST",
+              "word": "WORKS",
+              "relationType": "morphological",
+              "score": 0.92,
+              "reason": "Morphological variation of WORK (antonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "WORKING",
+              "relationType": "morphological",
+              "score": 0.92,
+              "reason": "Morphological variation of WORK (antonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "WORKED",
+              "relationType": "morphological",
+              "score": 0.92,
+              "reason": "Morphological variation of WORK (antonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "REPOSES",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of REPOSE (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "REPOSING",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of REPOSE (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "REPOSED",
+              "relationType": "morphological",
+              "score": 0.88,
+              "reason": "Morphological variation of REPOSE (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "RELAXATIONS",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of RELAXATION (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "RELAXATIONING",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of RELAXATION (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "RELAXATIONED",
+              "relationType": "morphological",
+              "score": 0.86,
+              "reason": "Morphological variation of RELAXATION (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EXERTIONS",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of EXERTION (antonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EXERTIONING",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of EXERTION (antonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EXERTIONED",
+              "relationType": "morphological",
+              "score": 0.85,
+              "reason": "Morphological variation of EXERTION (antonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EASES",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of EASE (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EASING",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of EASE (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "EASED",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of EASE (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "SLEEPS",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of SLEEP (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "SLEEPING",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of SLEEP (synonym of REST)",
+              "source": "morphology"
+            },
+            {
+              "originalClue": "REST",
+              "word": "SLEEPED",
+              "relationType": "morphological",
+              "score": 0.83,
+              "reason": "Morphological variation of SLEEP (synonym of REST)",
+              "source": "morphology"
+            }
+          ],
+          "rejectedCount": 0,
+          "rejections": []
+        },
+        "totalCombinationsGenerated": 264,
+        "totalCombinationsEvaluated": 264,
+        "phraseMatchesCount": 16,
+        "rankedCandidatesCount": 1
+      }
+    }
+  }
+]

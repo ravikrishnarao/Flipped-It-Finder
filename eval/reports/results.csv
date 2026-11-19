@@ -1,0 +1,9 @@
+Puzzle ID,Clue 1,Clue 2,Expected Phrase,Top 1 Candidate,Top 1 Score,Top-1 Match,Top-5 Match,W1 Recall,W2 Recall,Both W Recall,Phrase Recog,Combinations,Latency (ms),Primary Failure,Contributing Failures
+eval-01,"Synthetic","Frown","PLASTIC SMILE","NONE",0.00,FAIL,FAIL,NO,NO,NO,NO,0,1.28,"F1: Missing first transformation","F1: Missing first transformation; F2: Missing second transformation"
+eval-02,"Wet","Vegetables","DRY FRUITS","NONE",0.00,FAIL,FAIL,YES,NO,NO,NO,0,0.54,"F2: Missing second transformation","F2: Missing second transformation"
+eval-03,"Abode","Leaving","HOME COMING","NONE",0.00,FAIL,FAIL,NO,NO,NO,NO,0,0.04,"F1: Missing first transformation","F1: Missing first transformation; F2: Missing second transformation"
+eval-04,"New","Clothes","OLD GARMENTS","NONE",0.00,FAIL,FAIL,YES,NO,NO,NO,0,0.41,"F2: Missing second transformation","F2: Missing second transformation"
+eval-05,"Salt","Crate","SWEET BOX","NONE",0.00,FAIL,FAIL,NO,NO,NO,NO,0,0.07,"F1: Missing first transformation","F1: Missing first transformation; F2: Missing second transformation"
+eval-06,"Angel","Queen","DEMON KING","NONE",0.00,FAIL,FAIL,NO,NO,NO,NO,0,0.17,"F1: Missing first transformation","F1: Missing first transformation; F2: Missing second transformation"
+eval-07,"Short","Weekday","LONG WEEKEND","NONE",0.00,FAIL,FAIL,YES,NO,NO,NO,0,0.17,"F2: Missing second transformation","F2: Missing second transformation"
+eval-08,"Shallow","Soiling","DEEP CLEANING","NONE",0.00,FAIL,FAIL,YES,NO,NO,NO,144,3.94,"F2: Missing second transformation","F2: Missing second transformation"
